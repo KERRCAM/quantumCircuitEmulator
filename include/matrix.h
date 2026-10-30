@@ -15,9 +15,17 @@ typedef struct MATRIX{
 
     int w;
     int h;
-    double complex mat;
+    double complex* mat;
 
 } matrix;
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+matrix* newMatrix(int h, int w);
+
+matrix* loadMatrix(int h, int w, double complex* mat);
+
+void printMatrix(matrix* m);
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 

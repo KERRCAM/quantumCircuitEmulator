@@ -9,27 +9,35 @@
 
 int main(){
 
+
+    matrix* test = newMatrix(10, 1);
+
     double complex z1 = 1.0 + 3.0 * I;
-    double complex z2 = 1.0 - 4.0 * I;
 
-    printf("Working with complex numbers:\n\v");
+    // test->mat[m-]
+    printMatrix(test);
 
-    printf("Starting values:\nZ1 = %.2f + %.2fi\nZ2 = %.2f %+.2fi\n\n", creal(z1), cimag(z1), creal(z2), cimag(z2));
+    // double complex z1 = 1.0 + 3.0 * I;
+    // double complex z2 = 1.0 - 4.0 * I;
 
-    double complex sum = z1 + z2;
-    printf("The sum: Z1 + Z2 = %.2f %+.2fi\n", creal(sum), cimag(sum));
+    // printf("Working with complex numbers:\n\v");
 
-    double complex difference = z1 - z2;
-    printf("The difference: Z1 - Z2 = %.2f %+.2fi\n", creal(difference), cimag(difference));
+    // printf("Starting values:\nZ1 = %.2f + %.2fi\nZ2 = %.2f %+.2fi\n\n", creal(z1), cimag(z1), creal(z2), cimag(z2));
 
-    double complex product = z1 * z2;
-    printf("The product: Z1 x Z2 = %.2f %+.2fi\n", creal(product), cimag(product));
+    // double complex sum = z1 + z2;
+    // printf("The sum: Z1 + Z2 = %.2f %+.2fi\n", creal(sum), cimag(sum));
 
-    double complex quotient = z1 / z2;
-    printf("The quotient: Z1 / Z2 = %.2f %+.2fi\n", creal(quotient), cimag(quotient));
+    // double complex difference = z1 - z2;
+    // printf("The difference: Z1 - Z2 = %.2f %+.2fi\n", creal(difference), cimag(difference));
 
-    double complex conjugate = conj(z1);
-    printf("The conjugate of Z1 = %.2f %+.2fi\n", creal(conjugate), cimag(conjugate));
+    // double complex product = z1 * z2;
+    // printf("The product: Z1 x Z2 = %.2f %+.2fi\n", creal(product), cimag(product));
+
+    // double complex quotient = z1 / z2;
+    // printf("The quotient: Z1 / Z2 = %.2f %+.2fi\n", creal(quotient), cimag(quotient));
+
+    // double complex conjugate = conj(z1);
+    // printf("The conjugate of Z1 = %.2f %+.2fi\n", creal(conjugate), cimag(conjugate));
 
     return 0;
 
