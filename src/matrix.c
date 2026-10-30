@@ -45,7 +45,7 @@ void printMatrix(matrix* m){
     for (int i = 0; i < m->h; i++){
         printf("[ ");
         for (int j = 0; j < m->w; j++){
-            printf("%f %+fi", creal(m->mat[i * m->w + j]), cimag(m->mat[i * m->w + j]));
+            printf("%f %+fi", creal(m->mat[i * m->h + j]), cimag(m->mat[i * m->h + j]));
             if (j != m->w - 1){ printf(", ");}
         }
         printf(" ]\n");
