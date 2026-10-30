@@ -40,16 +40,72 @@ matrix* loadMatrix(int h, int w, double complex* mat){
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
+matrix* matrixMult(matrix* a, matrix* b){
+
+    if (a->w != b->h){
+        printf("ERROR: matrices dimensions cannot be multiplied (a.w = %d, b.h = %d)\n", a->w, b->h);
+        exit(1);
+    }
+
+    matrix* result = newMatrix(a->h, b->w);
+
+    for (int i = 0; i < a->h; i++){
+        for (int j = 0; j < b->w; j++){
+            for (int k = 0; k < a->w; k++){
+                result->mat[i * result->w + j] += a->mat[i * a->w + k] * b->mat[k * b->w + j];
+            }
+        }
+    }
+
+    return result;
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+matrix* matrixTensorProd(matrix* a, matrix* b){
+
+    return a;
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+matrix* matrixTranspose(matrix* a){
+
+    return a;
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+matrix* matrixConjugate(matrix* a){
+
+    return a;
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
 void printMatrix(matrix* m){
 
     for (int i = 0; i < m->h; i++){
         printf("[ ");
         for (int j = 0; j < m->w; j++){
-            printf("%f %+fi", creal(m->mat[i * m->h + j]), cimag(m->mat[i * m->h + j]));
+            printf("%f %+fi", creal(m->mat[i * m->w + j]), cimag(m->mat[i * m->w + j]));
             if (j != m->w - 1){ printf(", ");}
         }
         printf(" ]\n");
     }
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+void deleteMatrix(matrix* m){
+
+    free(m->mat);
+    free(m);
 
 }
 

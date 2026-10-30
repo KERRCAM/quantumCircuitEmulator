@@ -10,12 +10,31 @@
 int main(){
 
 
-    matrix* test = newMatrix(10, 1);
+    matrix* a = newMatrix(2, 3);
+    matrix* b = newMatrix(3, 2);
+    double complex o = 1.0;
+    double complex n = 1.0;
 
-    double complex z1 = 1.0 + 3.0 * I;
+    for (int i = 0; i < a->h; i++){
+        for (int j = 0; j < a->w; j++){
+            a->mat[i * a->w + j] = n;
+            n += o;
+        }
+    }
+    for (int i = 0; i < b->h; i++){
+        for (int j = 0; j < b->w; j++){
+            b->mat[i * b->w + j] = n;
+            n += o;
+        }
+    }
 
-    // test->mat[m-]
-    printMatrix(test);
+    printMatrix(a);
+    printf("\n");
+    printMatrix(b);
+    printf("\n");
+
+    matrix* result = matrixMult(a, b);
+    printMatrix(result);
 
     // double complex z1 = 1.0 + 3.0 * I;
     // double complex z2 = 1.0 - 4.0 * I;

@@ -25,7 +25,11 @@ matrix* newMatrix(int h, int w);
 
 matrix* loadMatrix(int h, int w, double complex* mat);
 
+matrix* matrixMult(matrix* a, matrix* b);
+
 void printMatrix(matrix* m);
+
+void deleteMatrix(matrix* m);
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
