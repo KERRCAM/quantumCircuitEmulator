@@ -35,6 +35,10 @@ int main(){
 
     matrix* result = matrixMult(a, b);
     printMatrix(result);
+    printf("\n");
+
+    matrix* tr = matrixTranspose(result);
+    printMatrix(tr);
 
     // double complex z1 = 1.0 + 3.0 * I;
     // double complex z2 = 1.0 - 4.0 * I;

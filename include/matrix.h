@@ -27,6 +27,12 @@ matrix* loadMatrix(int h, int w, double complex* mat);
 
 matrix* matrixMult(matrix* a, matrix* b);
 
+matrix* matrixTensorProd(matrix* a, matrix* b);
+
+matrix* matrixTranspose(matrix* a);
+
+matrix* matrixConjugate(matrix* a);
+
 void printMatrix(matrix* m);
 
 void deleteMatrix(matrix* m);
