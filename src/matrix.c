@@ -64,9 +64,22 @@ matrix* matrixMult(matrix* a, matrix* b){
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
-matrix* matrixTensorProd(matrix* a, matrix* b){
+matrix* tensorProduct(matrix* a, matrix* b){
 
-    return a;
+    if (a->w != 1 && b->w != 1){
+        printf("ERROR: Input matrices must both have width 1 for tensor product\n");
+        exit(1);
+    }
+
+    matrix* result = newMatrix(a->h * b->h, 1);
+
+    for (int i = 0; i < a->h; i++){
+        for (int j = 0; j < b->h; j++){
+            result->mat[i * a->h + j] = a->mat[i] * b->mat[j];
+        }
+    }
+
+    return result;
 
 }
 
@@ -95,6 +108,22 @@ matrix* matrixCompConj(matrix* a){
     for (int i = 0; i < a->h; i++){
         for (int j = 0; j < a->w; j++){
             result->mat[i * result->w + j] = conjf(a->mat[i * result->w + j]);
+        }
+    }
+
+    return result;
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+matrix* matrixConjTrans(matrix* a){
+
+    matrix* result = newMatrix(a->w, a->h);
+
+    for (int i = 0; i < a->h; i++){
+        for (int j = 0; j < a->w; j++){
+            result->mat[j * result->w + i] = conjf(a->mat[i * result->w + j]);
         }
     }
 

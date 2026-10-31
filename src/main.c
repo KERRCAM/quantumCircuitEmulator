@@ -38,6 +38,22 @@ int main(){
 
     matrix* tr = matrixTranspose(result);
     printMatrix(tr);
+    printf("\n");
+
+
+    matrix* b0 = newMatrix(2, 1);
+    matrix* b1 = newMatrix(2, 1);
+
+    b0->mat[0] = 1.0;
+    b1->mat[1] = 1.0;
+    printMatrix(b0);
+    printf("\n");
+    printMatrix(b1);
+    printf("\n");
+
+    matrix* tp = tensorProduct(b0, b1);
+    printMatrix(tp);
+    printf("\n");
 
     return 0;
 

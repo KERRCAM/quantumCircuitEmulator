@@ -27,11 +27,13 @@ matrix* loadMatrix(int h, int w, double complex* mat);
 
 matrix* matrixMult(matrix* a, matrix* b);
 
-matrix* matrixTensorProd(matrix* a, matrix* b);
+matrix* tensorProduct(matrix* a, matrix* b);
 
 matrix* matrixTranspose(matrix* a);
 
 matrix* matrixCompConj(matrix* a);
+
+matrix* matrixConjTrans(matrix* a);
 
 void printMatrix(matrix* m);
 
