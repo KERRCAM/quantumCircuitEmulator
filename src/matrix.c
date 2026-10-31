@@ -88,9 +88,17 @@ matrix* matrixTranspose(matrix* a){
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
-matrix* matrixConjugate(matrix* a){
+matrix* matrixCompConj(matrix* a){
 
-    return a;
+    matrix* result = newMatrix(a->w, a->h);
+
+    for (int i = 0; i < a->h; i++){
+        for (int j = 0; j < a->w; j++){
+            result->mat[i * result->w + j] = conjf(a->mat[i * result->w + j]);
+        }
+    }
+
+    return result;
 
 }
 

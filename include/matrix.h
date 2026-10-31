@@ -31,7 +31,7 @@ matrix* matrixTensorProd(matrix* a, matrix* b);
 
 matrix* matrixTranspose(matrix* a);
 
-matrix* matrixConjugate(matrix* a);
+matrix* matrixCompConj(matrix* a);
 
 void printMatrix(matrix* m);
 
