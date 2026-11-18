@@ -5,10 +5,36 @@
 /* LOCAL IMPORTS */
 #include <matrix.h>
 #include <gate.h>
+#include <circuit.h>
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
 int main(){
+
+    initBaseGates();
+    circuit* qc = newCircuit(1, 1);
+    H(qc, 0, 0);
+    executeCircuit(qc);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // matrix* a = newMatrix(2, 3);
     // matrix* b = newMatrix(3, 2);
@@ -42,10 +68,6 @@ int main(){
     // printf("\n");
 
 
-
-
-
-    initBaseGates();
     // matrix* q0 = newMatrix(2, 1);
 
 

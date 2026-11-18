@@ -13,8 +13,8 @@ typedef struct CIRCUIT_STRUCT{
 
     short int noq;
     short int depth;
-    matrix* gates;
-    matrix** qubits;
+    int* gates;
+    int* qubits;
     matrix* stateVector;
 
 } circuit;
@@ -23,9 +23,29 @@ typedef struct CIRCUIT_STRUCT{
 
 circuit* newCircuit(short int noq, short int depth);
 
-void executeCircuit();
+void setQubitBasis(circuit* c, int qubit);
+
+void H(circuit* c, int qubit, int depth);
+
+void X(circuit* c, int qubit, int depth);
+
+void Y(circuit* c, int qubit, int depth);
+
+void Z(circuit* c, int qubit, int depth);
+
+void S(circuit* c, int qubit, int depth);
+
+void T(circuit* c, int qubit, int depth);
+
+void SWAP(circuit* c, int control, int target, int depth);
+
+void CNOT(circuit* c, int control, int target, int depth);
+
+void executeCircuit(circuit* c);
 
 void printStateVector(circuit* c);
+
+void printProbabilities(circuit* c);
 
 void printMeasurementResult(circuit* c);
 

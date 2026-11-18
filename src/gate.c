@@ -4,6 +4,7 @@
 
 /* LOCAL IMPORTS */
 #include <matrix.h>
+#include <gate.h>
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 /* BASE GATES */
@@ -96,9 +97,6 @@ void initBaseGates(void){
     // printf("\n");
 
 
-
-
-
     // matrix* a = newMatrix(1, 2);
     // matrix* b = newMatrix(2, 1);
     // a->mat[0] = 1.0;
@@ -112,3 +110,31 @@ void initBaseGates(void){
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
+matrix* getGate(int gate){
+
+    switch (gate){
+        case I_GATE:
+            return identity;
+        case H_GATE:
+            return hadamard;
+        case X_GATE:
+            return pauliX;
+        case Y_GATE:
+            return pauliY;
+        case Z_GATE:
+            return pauliZ;
+        case S_GATE:
+            return sGate;
+        case T_GATE:
+            return tGate;
+        case SWAP_GATE:
+            return swap;
+        case CNOT_GATE:
+            return controlledNot;
+        default:
+            return NULL;
+    }
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/

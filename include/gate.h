@@ -5,25 +5,30 @@
 
 
 /* LOCAL IMPORTS */
-#include <circuit.h>
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+enum gates{
+
+    I_GATE,     /* int value = 0 */
+    H_GATE,     /* int value = 1 */
+    X_GATE,     /* int value = 2 */
+    Y_GATE,     /* int value = 3 */
+    Z_GATE,     /* int value = 4 */
+    S_GATE,     /* int value = 5 */
+    T_GATE,     /* int value = 6 */
+    SWAP_GATE,  /* int value = 7 */
+    CNOT_GATE,  /* int value = 8 */
+
+};
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
 void initBaseGates(void);
 
-// void H(circuit* c, int qubit, int depth);
+matrix* getGate(int gate);
 
-// void X(circuit* c, int qubit, int depth);
-
-// void Y(circuit* c, int qubit, int depth);
-
-// void Z(circuit* c, int qubit, int depth);
-
-// void T(circuit* c, int qubit, int depth);
-
-// void S(circuit* c, int qubit, int depth);
-
-// void CNOT(circuit* c, int control, int target, int depth);
+void newCustomGate(matrix* gate);
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
