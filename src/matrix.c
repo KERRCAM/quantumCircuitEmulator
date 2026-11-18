@@ -71,11 +71,21 @@ matrix* tensorProduct(matrix* a, matrix* b){
     //     exit(1);
     // }
 
-    matrix* result = newMatrix(a->h * b->h, 1);
+    matrix* result = newMatrix(a->h * b->h, a->w * b->w);
+
+    // for (int i = 0; i < a->h; i++){
+    //     for (int j = 0; j < b->h; j++){
+    //         result->mat[i * a->h + j] = a->mat[i] * b->mat[j];
+    //     }
+    // }
 
     for (int i = 0; i < a->h; i++){
-        for (int j = 0; j < b->h; j++){
-            result->mat[i * a->h + j] = a->mat[i] * b->mat[j];
+        for (int j = 0; j < a->w; j++){
+            for (int k = 0; k < b->h; k++){
+                for (int l = 0; l < b->w; l++){
+                    result->mat[(i * b->h + k) * result->w + (j * b->w + l)] = a->mat[i * a->w + j] * b->mat[k * b->w + l];
+                }
+            }
         }
     }
 
