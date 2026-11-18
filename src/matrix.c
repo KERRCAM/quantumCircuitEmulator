@@ -42,10 +42,10 @@ matrix* loadMatrix(int h, int w, double complex* mat){
 
 matrix* matrixMult(matrix* a, matrix* b){
 
-    if (a->w != b->h){
-        printf("ERROR: matrices dimensions cannot be multiplied (a.w = %d, b.h = %d)\n", a->w, b->h);
-        exit(1);
-    }
+    // if (a->w != b->h){
+    //     printf("ERROR: matrices dimensions cannot be multiplied (a.w = %d, b.h = %d)\n", a->w, b->h);
+    //     exit(1);
+    // }
 
     matrix* result = newMatrix(a->h, b->w);
 
@@ -66,10 +66,10 @@ matrix* matrixMult(matrix* a, matrix* b){
 
 matrix* tensorProduct(matrix* a, matrix* b){
 
-    if (a->w != 1 && b->w != 1){
-        printf("ERROR: Input matrices must both have width 1 for tensor product\n");
-        exit(1);
-    }
+    // if (a->w != 1 && b->w != 1){
+    //     printf("ERROR: Input matrices must both have width 1 for tensor product\n");
+    //     exit(1);
+    // }
 
     matrix* result = newMatrix(a->h * b->h, 1);
 
