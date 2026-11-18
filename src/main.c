@@ -12,8 +12,9 @@
 int main(){
 
     initBaseGates();
-    circuit* qc = newCircuit(1, 1);
+    circuit* qc = newCircuit(1, 2);
     H(qc, 0, 0);
+    H(qc, 0, 1);
     executeCircuit(qc);
 
 
