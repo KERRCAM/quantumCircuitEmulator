@@ -66,18 +66,7 @@ matrix* matrixMult(matrix* a, matrix* b){
 
 matrix* tensorProduct(matrix* a, matrix* b){
 
-    // if (a->w != 1 && b->w != 1){
-    //     printf("ERROR: Input matrices must both have width 1 for tensor product\n");
-    //     exit(1);
-    // }
-
     matrix* result = newMatrix(a->h * b->h, a->w * b->w);
-
-    // for (int i = 0; i < a->h; i++){
-    //     for (int j = 0; j < b->h; j++){
-    //         result->mat[i * a->h + j] = a->mat[i] * b->mat[j];
-    //     }
-    // }
 
     for (int i = 0; i < a->h; i++){
         for (int j = 0; j < a->w; j++){
