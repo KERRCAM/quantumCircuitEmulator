@@ -26,7 +26,7 @@ you have compiled the code. <br/>
 ## How to Build a Circuit
 If you look at the test function in src/main.c you can see examples of how circuits are built. <br/>
 To start if you were making a new main file you would need to include the key headers: <br/>
-```
+```c
 #include <matrix.h>
 #include <gate.h>
 #include <circuit.h>
@@ -35,7 +35,7 @@ To start if you were making a new main file you would need to include the key he
 To initialise the gates you can then call the function ```initBaseGates();```. This is needed to build the <br/>
 gates used in our circuits. From here you can make a new circuit struct and add gates. Below is an example <br/>
 of building a simple bell state with a hadamard gate an a CNOT gate. <br/>
-```
+```c
     circuit* qc = newCircuit(2, 2);
     H(qc, 0, 0);
     CNOT(qc, 0, 1, 1);
@@ -46,7 +46,7 @@ We then call our gate functions with the circuit struct, the qubit(s) we want to
 we want the gate in the circuit. An error will be produced if you try to place gates over the top of each other. <br/>
 Once we have built our circuit we can print it out with ```printCircuit(qc);``` to check our result: <br/>
 
-```
+```c
 printCircuit(qc);
 
     ^v
@@ -62,43 +62,43 @@ CX is our control gate for our CNOT with TG being our target. <br/>
 
 Now we have built and confirmed our circuit we can execute teh circuit an print some results with the following functions: <br/>
 
-```
-    executeCircuit(qc);
+```c
+executeCircuit(qc);
 
     ^v
 
-    executes our circuit
+executes our circuit
 ```
-```
-    printStateVector(qc);
+```c
+printStateVector(qc);
 
     ^v
 
-    STATE VECTOR:
-    [ 0.707107 +0.000000i ]
-    [ 0.000000 +0.000000i ]
-    [ 0.000000 +0.000000i ]
-    [ 0.707107 +0.000000i ]
+STATE VECTOR:
+[ 0.707107 +0.000000i ]
+[ 0.000000 +0.000000i ]
+[ 0.000000 +0.000000i ]
+[ 0.707107 +0.000000i ]
 ```
-```
-    printCircuitMatrix(qc);
+```c
+printCircuitMatrix(qc);
 
     ^v
 
-    CIRCUIT MATRIX:
-    [ 0.707107 +0.000000i, 0.707107 +0.000000i, 0.000000 +0.000000i, 0.000000 +0.000000i ]
-    [ 0.000000 +0.000000i, 0.000000 +0.000000i, 0.707107 +0.000000i, -0.707107 +0.000000i ]
-    [ 0.000000 +0.000000i, 0.000000 +0.000000i, 0.707107 +0.000000i, 0.707107 +0.000000i ]
-    [ 0.707107 +0.000000i, -0.707107 +0.000000i, 0.000000 +0.000000i, 0.000000 +0.000000i ]
+CIRCUIT MATRIX:
+[ 0.707107 +0.000000i, 0.707107 +0.000000i, 0.000000 +0.000000i, 0.000000 +0.000000i ]
+[ 0.000000 +0.000000i, 0.000000 +0.000000i, 0.707107 +0.000000i, -0.707107 +0.000000i ]
+[ 0.000000 +0.000000i, 0.000000 +0.000000i, 0.707107 +0.000000i, 0.707107 +0.000000i ]
+[ 0.707107 +0.000000i, -0.707107 +0.000000i, 0.000000 +0.000000i, 0.000000 +0.000000i ]
 ```
-```
-    printProbabilities(qc);
+```c
+printProbabilities(qc);
 
     ^v
 
-    STATE PROBABILITIES:
-    |0>: 0.500000 +0.000000i
-    |1>: 0.000000 +0.000000i
-    |2>: 0.000000 +0.000000i
-    |3>: 0.500000 +0.000000i
+STATE PROBABILITIES:
+|0>: 0.500000 +0.000000i
+|1>: 0.000000 +0.000000i
+|2>: 0.000000 +0.000000i
+|3>: 0.500000 +0.000000i
 ```
