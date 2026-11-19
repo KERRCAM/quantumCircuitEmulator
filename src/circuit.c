@@ -178,7 +178,7 @@ void executeCircuit(circuit* c){
 
         for (int q = 1; q < c->noq; q++){
             if (c->gates[q * c->depth + d].tag != -1){
-                layer = tensorProduct(layer, getGate(c->gates[q * c->depth + d].tag));
+                layer = tensorProduct(getGate(c->gates[q * c->depth + d].tag), layer);
             }
         }
 
