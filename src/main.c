@@ -1,11 +1,12 @@
 /* LIBRARY IMPORTS */
 #include <stdio.h>
-#include <math.h>
+#include <stdlib.h>
 
 /* LOCAL IMPORTS */
 #include <matrix.h>
 #include <gate.h>
 #include <circuit.h>
+#include <time.h>
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
@@ -13,6 +14,88 @@ void testH(){
 
     circuit* qc = newCircuit(1, 1);
     H(qc, 0, 0);
+    printCircuit(qc);
+    executeCircuit(qc);
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+void testDepth(){
+
+    circuit* qc = newCircuit(1, 2);
+    H(qc, 0, 0);
+    H(qc, 0, 1);
+    printCircuit(qc);
+    executeCircuit(qc);
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+void testQubits(){
+
+    circuit* qc = newCircuit(2, 1);
+    H(qc, 0, 0);
+    H(qc, 1, 0);
+    printCircuit(qc);
+    executeCircuit(qc);
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+void testX(){
+
+    circuit* qc = newCircuit(1, 1);
+    X(qc, 0, 0);
+    printCircuit(qc);
+    executeCircuit(qc);
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+void testY(){
+
+    circuit* qc = newCircuit(1, 1);
+    Y(qc, 0, 0);
+    printCircuit(qc);
+    executeCircuit(qc);
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+void testZ(){
+
+    circuit* qc = newCircuit(1, 2);
+    H(qc, 0, 0);
+    Z(qc, 0, 1);
+    printCircuit(qc);
+    executeCircuit(qc);
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+void testS(){
+
+    circuit* qc = newCircuit(1, 2);
+    H(qc, 0, 0);
+    S(qc, 0, 1);
+    printCircuit(qc);
+    executeCircuit(qc);
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+void testT(){
+
+    circuit* qc = newCircuit(1, 2);
+    H(qc, 0, 0);
+    T(qc, 0, 1);
     printCircuit(qc);
     executeCircuit(qc);
 
@@ -44,119 +127,74 @@ void testCNOT(){
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
-int main(){
+void testGrovers(){
 
-    initBaseGates();
     circuit* qc = newCircuit(2, 2);
-    H(qc, 0, 0);
-    SWAP(qc, 0, 1, 1);
+    // WIP
     printCircuit(qc);
     executeCircuit(qc);
 
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+void testMaxDepth(int n){
+
+    circuit* qc = newCircuit(1, n);
+    for (int i = 0; i < n; i++){ H(qc, 0, i);}
+    printCircuit(qc);
+    executeCircuit(qc);
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+void testMaxQubits(int n){
+
+    circuit* qc = newCircuit(n, 1);
+    for (int i = 0; i < n; i++){ H(qc, i, 0);}
+    printCircuit(qc);
+    executeCircuit(qc);
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+int main(){
+
+    system("sudo ./ppat simulator &");
+    double time, diff;
+    time = (double) clock();
+    time = time / CLOCKS_PER_SEC;
+
+    initBaseGates();
+
+    // testH();
+    // testDepth();
+    // testQubits();
+    // testX();
+    // testZ();
+    // testS();
+    // testT();
+    // testSwap();
+    // testCNOT();
+    // testGrovers();
+    // testMaxDepth(2000);
+    testMaxQubits(15);
 
 
+    // circuit* qc = newCircuit(2, 2);
+    // H(qc, 0, 0);
+    // SWAP(qc, 0, 1, 1);
+    // printCircuit(qc);
+    // executeCircuit(qc);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // matrix* a = newMatrix(2, 3);
-    // matrix* b = newMatrix(3, 2);
-    // double complex o = 1.0;
-    // double complex n = 1.0;
-
-    // for (int i = 0; i < a->h; i++){
-    //     for (int j = 0; j < a->w; j++){
-    //         a->mat[i * a->w + j] = n;
-    //         n += o;
-    //     }
-    // }
-    // for (int i = 0; i < b->h; i++){
-    //     for (int j = 0; j < b->w; j++){
-    //         b->mat[i * b->w + j] = n;
-    //         n += o;
-    //     }
-    // }
-
-    // printMatrix(a);
-    // printf("\n");
-    // printMatrix(b);
-    // printf("\n");
-
-    // matrix* result = matrixMult(a, b);
-    // printMatrix(result);
-    // printf("\n");
-
-    // matrix* tr = matrixTranspose(result);
-    // printMatrix(tr);
-    // printf("\n");
-
-
-    // matrix* q0 = newMatrix(2, 1);
-
-
-    // matrix* H = newMatrix(2, 2);
-    // H->mat[0] = 1.0 * sqrt(0.5);
-    // H->mat[1] = 1.0 * sqrt(0.5);
-    // H->mat[2] = 1.0 * sqrt(0.5);
-    // H->mat[3] = -1.0 * sqrt(0.5);
-    // // printMatrix(H);
-    // // printf("\n");
-
-    // matrix* q0 = newMatrix(2, 1);
-    // q0->mat[0] = 1.0;
-    // printMatrix(q0);
-    // printf("\n");
-
-    // matrix* q1 = newMatrix(2, 1);
-    // q1->mat[0] = 1.0;
-    // // q1 = matrixMult(H, q1);
-
-
-    // q0 = matrixMult(H, q0);
-    // printMatrix(q0);
-    // printf("\n");
-
-    // matrix* sv = tensorProduct(q1, q0);
-    // printMatrix(sv);
-    // printf("\n");
-
-
-    // matrix* b0 = newMatrix(2, 1);
-    // matrix* b1 = newMatrix(2, 1);
-
-    // b0->mat[0] = 1.0;
-    // b1->mat[1] = 1.0;
-    // printMatrix(b0);
-    // printf("\n");
-    // printMatrix(b1);
-    // printf("\n");
-
-    // matrix* tp = tensorProduct(b0, b1);
-    // printMatrix(tp);
-    // printf("\n");
+    diff = (((double) clock()) / CLOCKS_PER_SEC) - time;
+    printf("Program run time = %lf seconds\n", diff);
+    system("sudo killall powermetrics");
 
     return 0;
 
 }
 
 /*--------------------------------------------------------------------------------------------------------------------*/
-
-
-
-
-
-

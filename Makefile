@@ -1,7 +1,7 @@
 BUILD_DIR = builds
 SRC_DIR = src
 SRC_FILES = $(wildcard $(SRC_DIR)/*.c)
-OBJ_NAME = emulator
+OBJ_NAME = simulator
 INCLUDE_PATHS = -Iinclude
 COMPILER_FLAGS = -Wall -Wextra -Wall -std=c99 -fopenmp -march=native
 OPT_LEVEL = -O3 # Need to be careful on this for accuracy sakes
@@ -12,6 +12,9 @@ gcc:
 r:
 	./$(BUILD_DIR)/$(OBJ_NAME)
 
+log:
+	@sudo ./../../../3RD_YEAR/dissertation/programPerformanceAnalysisTool/builds/processor $(OBJ_NAME)
+
 c:
 	rm $(BUILD_DIR)/$(OBJ_NAME)
 
@@ -19,4 +22,4 @@ debug:
 	echo "tbd ldb cmd"
 
 loc:
-	git ls-files '.c' '.h' | xargs wc -l
+	git ls-files '*.c' '*.h' | xargs wc -l

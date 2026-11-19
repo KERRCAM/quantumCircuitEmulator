@@ -1,0 +1,15 @@
+#!/bin/zsh
+rm logs/powermetricsLog.txt
+rm logs/topLog.txt
+
+exec 2>/dev/null
+
+sudo powermetrics -a 0 -i 1000 --samplers tasks,cpu_power >> logs/powermetricsLog.txt &
+
+while sleep 1; do
+    if pgrep -x $1 > /dev/null; then
+        top -l 1 | grep -w $1 >> logs/topLog.txt &
+    else
+        exit 0
+    fi
+done

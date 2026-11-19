@@ -1,0 +1,1543 @@
+Machine model: Mac16,8
+OS version: 24G720
+Boot arguments: 
+Boot time: Sat Nov 14 09:07:09 2026
+
+
+
+*** Sampled system activity (Thu Nov 19 16:06:49 2026 +0000) (1018.68ms elapsed) ***
+
+*** Running tasks ***
+
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)
+simulator                          7523   721.60    50.12  338.40  0.00               338.40  0.00              
+kernel_task                        0      1495.45   0.00   1605.70 0.00               3426.21 0.00              
+Code                               675    271.55    71.08  66.70   0.00               67.68   0.00              
+top                                7535   651.62    13.33  0.00    0.00               0.00    0.00              
+WindowServer                       378    200.40    42.17  61.80   0.00               406.08  0.00              
+Code Helper (Renderer)             809    112.41    87.82  6.87    5.89               38.25   0.00              
+cpptools                           26320  67.00     79.46  0.00    0.00               12.75   0.00              
+Code Helper                        59640  100.91    47.34  8.83    0.00               255.03  0.00              
+DEAD_TASKS                         -1     81.06     20.44  0.00    0.00               0.98    0.00              
+NordVPN                            594    29.63     56.82  0.00    0.00               51.99   0.00              
+powermetrics                       7531   18.20     3.86   0.00    0.00               0.98    0.00              
+sysmond                            832    17.73     21.18  0.00    0.00               0.00    0.00              
+plugin-container                   76418  128.55    58.64  0.00    0.00               44.14   0.00              
+Code Helper (Plugin)               26231  6.96      63.94  8.83    0.98               13.73   0.00              
+coreaudiod                         399    82.50     97.35  0.00    0.00               86.32   0.00              
+Code Helper                        839    4.50      40.62  11.77   0.00               24.52   0.00              
+UniversalControl                   833    48.31     50.65  0.00    0.00               0.00    0.00              
+fileproviderd                      687    52.81     58.62  0.00    0.00               39.24   0.00              
+com.apple.AppleUserHIDDrivers      555    54.59     21.34  0.00    0.00               0.00    0.00              
+grep                               7536   7.66      22.61  0.00    0.00               0.00    0.00              
+cpptools-srv                       36497  2.20      35.34  0.00    0.00               4.90    0.00              
+sleep                              7537   5.14      36.15  0.00    0.00               0.00    0.00              
+LinearMouse                        1277   27.77     82.43  0.00    0.00               0.00    0.00              
+OneDrive                           91960  31.29     36.35  0.00    0.00               29.43   0.00              
+zsh                                7526   1.74      7.85   0.00    0.00               0.00    0.00              
+Code Helper                        26230  1.27      39.15  1.96    0.00               4.90    0.00              
+Spotify                            17981  20.95     68.12  18.64   0.00               65.72   0.00              
+plugin-container                   33849  12.53     10.31  0.00    0.00               2.94    0.00              
+logd                               308    10.68     33.55  0.00    0.00               2.94    0.00              
+Finder                             696    7.14      42.73  0.00    0.00               10.79   0.00              
+Code Helper                        5047   0.62      31.52  0.98    0.00               1.96    0.00              
+fseventsd                          312    8.22      18.73  3.92    0.98               24.52   0.00              
+OneDrive File Provider             6569   5.15      62.56  0.00    0.00               4.90    0.00              
+launchd                            1      0.77      39.96  0.00    0.00               0.00    0.00              
+com.apple.DriverKit-AppleBCMWLAN   553    8.37      58.77  0.00    0.00               135.36  0.00              
+notifyd                            371    0.82      47.81  0.00    0.00               0.00    0.00              
+mds                                336    4.89      47.68  0.00    0.00               19.62   0.00              
+mDNSResponder                      460    4.84      57.86  17.66   0.00               30.41   0.00              
+opendirectoryd                     347    0.82      36.12  0.00    0.00               0.00    0.00              
+revisiond                          366    2.60      43.62  0.00    0.00               2.94    0.00              
+powerd                             321    0.45      32.80  0.00    0.00               0.00    0.00              
+firefox                            1225   3.74      56.16  0.00    0.00               3.92    0.00              
+Activity Monitor                   2421   1.45      76.42  0.00    0.00               0.98    0.00              
+airportd                           391    4.28      64.30  0.00    0.00               0.98    0.00              
+cpptools                           5618   0.18      48.83  0.00    0.00               11.77   0.00              
+Code Helper (Plugin)               5187   0.16      37.20  0.98    0.00               1.96    0.00              
+Code Helper (Renderer)             4809   0.48      46.90  0.00    0.00               0.00    0.00              
+suggestd                           706    2.23      59.40  0.00    0.00               4.90    0.00              
+com.apple.AmbientDisplayAgent      1831   2.10      48.58  0.00    0.00               0.00    0.00              
+plugin-container                   2661   3.06      70.43  0.00    0.00               0.98    0.00              
+corespotlightd                     759    2.97      53.95  0.00    0.00               7.85    0.00              
+syspolicyd                         462    0.64      32.89  0.00    0.00               4.90    0.00              
+com.cisco.anyconnect.macos.acsoc   552    2.16      57.50  0.00    0.00               0.98    0.00              
+plugin-container                   9238   1.45      78.72  0.00    0.00               2.94    0.00              
+Spotify Helper                     17987  1.85      44.11  0.00    0.00               0.00    0.00              
+plugin-container                   51485  1.11      90.52  0.00    0.00               3.92    0.00              
+plugin-container                   16308  1.76      63.56  0.00    0.00               16.67   0.00              
+Code Helper                        844    0.11      52.64  0.98    0.00               1.96    0.00              
+mysqld                             541    1.88      45.46  0.00    0.00               99.07   0.00              
+com.apple.WebKit.Networking        767    0.15      21.63  0.00    0.00               4.90    0.00              
+UserEventAgent                     569    1.00      73.87  0.00    0.00               0.98    0.00              
+Spotify Helper                     17986  0.86      42.82  0.00    0.00               1.96    0.00              
+corebrightnessd                    373    1.30      45.71  0.00    0.00               0.98    0.00              
+Code Helper (Plugin)               5226   0.06      66.23  0.98    0.00               1.96    0.00              
+FocusriteControlServer             540    1.50      25.36  0.00    0.00               26.48   0.00              
+spotlightknowledged                1343   2.00      37.00  0.00    0.00               0.00    0.00              
+Firefox GPU Helper                 1299   1.15      67.85  0.00    0.00               9.81    0.00              
+plugin-container                   51519  1.30      60.55  0.00    0.00               10.79   0.00              
+cpptools-srv                       64619  0.06      28.31  0.00    0.00               4.90    0.00              
+mds_stores                         566    1.14      37.38  0.00    0.00               1.96    0.00              
+com.apple.DriverKit.AppleUserECM   93640  1.48      25.72  0.00    0.00               7.85    0.00              
+cpptools-srv                       99815  0.07      25.62  0.00    0.00               4.90    0.00              
+plugin-container                   25945  1.30      92.12  0.00    0.00               1.96    0.00              
+plugin-container                   1310   0.73      11.51  0.00    0.00               18.64   0.00              
+Code Helper (Plugin)               26340  0.04      59.96  0.98    0.00               1.96    0.00              
+cpptools-srv                       31521  0.04      34.09  0.00    0.00               4.90    0.00              
+com.apple.appkit.xpc.openAndSave   11060  0.38      35.80  0.00    0.00               7.85    0.00              
+com.apple.appkit.xpc.openAndSave   11231  0.35      36.79  0.00    0.00               6.87    0.00              
+cpptools-srv                       5738   0.05      20.29  0.00    0.00               2.94    0.00              
+plugin-container                   51496  0.52      71.59  0.00    0.00               3.92    0.00              
+Code Helper (Plugin)               26356  0.04      60.23  0.98    0.00               1.96    0.00              
+Code Helper (Plugin)               30151  0.04      68.61  0.98    0.00               1.96    0.00              
+cpptools-srv2                      5638   0.03      28.81  0.00    0.00               2.94    0.00              
+contextstored                      384    0.33      52.58  0.00    0.00               1.96    0.00              
+cpptools-srv2                      26391  0.04      29.87  0.00    0.00               2.94    0.00              
+filecoordinationd                  700    0.43      68.62  0.00    0.00               0.00    0.00              
+plugin-container                   49101  0.57      55.52  0.00    0.00               3.92    0.00              
+cpptools-srv2                      5636   0.03      29.96  0.00    0.00               2.94    0.00              
+audioclocksyncd                    513    0.54      52.77  0.00    0.00               0.00    0.00              
+csc_iseagentd                      1311   0.50      31.15  0.00    0.00               29.43   0.00              
+symptomsd                          437    0.68      69.74  0.00    0.00               0.00    0.00              
+cpptools-srv2                      27177  0.04      27.72  0.00    0.00               2.94    0.00              
+Cisco Secure Client                1282   0.41      74.80  0.00    0.00               7.85    0.00              
+logd_helper                        377    0.44      6.69   0.00    0.00               0.00    0.00              
+PerfPowerServices                  59368  0.36      44.44  0.00    0.00               0.00    0.00              
+locationd                          355    0.61      58.22  0.00    0.00               1.96    0.00              
+plugin-container                   33790  0.56      78.95  0.00    0.00               1.96    0.00              
+duetexpertd                        91819  0.29      43.85  0.00    0.00               0.00    0.00              
+PasswordBreachAgent                14477  0.22      17.92  0.00    0.00               4.90    0.00              
+apsd                               349    0.24      17.59  0.00    0.00               4.90    0.00              
+com.apple.geod                     13017  0.36      68.52  0.00    0.00               0.98    0.00              
+gamecontrolleragentd               1168   0.40      20.62  0.00    0.00               5.89    0.00              
+plugin-container                   26746  0.20      21.99  0.00    0.00               3.92    0.00              
+lockoutagent                       662    0.17      28.81  0.00    0.00               0.98    0.00              
+gamepolicyd                        716    0.06      32.89  0.00    0.00               0.98    0.00              
+coreduetd                          342    0.14      38.40  0.00    0.00               0.98    0.00              
+ContinuityCaptureAgent             648    0.07      23.04  0.00    0.00               1.96    0.00              
+plugin-container                   1303   0.15      63.53  0.00    0.00               1.96    0.00              
+pboard                             577    0.15      22.45  0.00    0.00               0.98    0.00              
+useractivityd                      760    0.17      9.91   0.00    0.00               0.98    0.00              
+Preview                            11230  0.03      21.76  0.00    0.00               0.98    0.00              
+thermalmonitord                    346    0.12      46.22  0.00    0.00               0.98    0.00              
+imagent                            689    0.12      54.14  0.00    0.00               0.98    0.00              
+cameracaptured                     505    0.06      36.82  0.00    0.00               1.96    0.00              
+CursorUIViewService                787    0.03      55.05  0.00    0.00               0.98    0.00              
+Spotify Helper                     17996  0.09      72.46  0.00    0.00               0.98    0.00              
+remindd                            93780  0.05      30.95  0.00    0.00               0.98    0.00              
+com.apple.WebKit.GPU               1510   0.04      21.82  0.00    0.00               0.98    0.00              
+com.apple.cmio.registerassistant   375    0.04      22.18  0.00    0.00               0.98    0.00              
+Microsoft Word                     10979  0.04      23.69  0.00    0.00               0.98    0.00              
+replayd                            714    0.04      21.56  0.00    0.00               0.98    0.00              
+wifip2pd                           643    0.03      41.40  0.00    0.00               0.00    0.00              
+mDNSResponderHelper                494    0.02      38.97  0.00    0.00               0.98    0.00              
+com.apple.audio.Core-Audio-Drive   485    0.02      22.02  0.00    0.00               0.98    0.00              
+ALL_TASKS                          -2     3921.36   31.66  2159.65 7.85               5548.35 0.00              
+
+**** Processor usage ****
+
+E-Cluster Online: 100%
+E-Cluster HW active frequency: 1739 MHz
+E-Cluster HW active residency:  67.06% (1020 MHz:  32% 1404 MHz: 3.4% 1788 MHz: 1.1% 2112 MHz: 2.4% 2352 MHz: 1.9% 2532 MHz: .41% 2592 MHz:  26%)
+E-Cluster idle residency:  32.94%
+E-Cluster down residency:   0.00%
+CPU 0 frequency: 1749 MHz
+CPU 0 active residency:  43.79% (1020 MHz:  21% 1404 MHz: 2.1% 1788 MHz: .79% 2112 MHz: 1.3% 2352 MHz: 1.4% 2532 MHz: .17% 2592 MHz:  17%)
+CPU 0 idle residency:  56.21%
+CPU 0 down residency:   0.00%
+CPU 1 frequency: 1779 MHz
+CPU 1 active residency:  33.79% (1020 MHz:  16% 1404 MHz: 1.7% 1788 MHz: .56% 2112 MHz: .66% 2352 MHz: .97% 2532 MHz: .09% 2592 MHz:  14%)
+CPU 1 idle residency:  66.21%
+CPU 1 down residency:   0.00%
+CPU 2 frequency: 1836 MHz
+CPU 2 active residency:  25.25% (1020 MHz:  11% 1404 MHz: 1.2% 1788 MHz: .47% 2112 MHz: .24% 2352 MHz: .76% 2532 MHz: .05% 2592 MHz:  12%)
+CPU 2 idle residency:  74.75%
+CPU 2 down residency:   0.00%
+CPU 3 frequency: 1828 MHz
+CPU 3 active residency:  20.95% (1020 MHz: 9.0% 1404 MHz: 1.2% 1788 MHz: .29% 2112 MHz: .11% 2352 MHz: .40% 2532 MHz: .02% 2592 MHz: 9.9%)
+CPU 3 idle residency:  79.05%
+CPU 3 down residency:   0.00%
+
+P0-Cluster Online: 67%
+P0-Cluster HW active frequency: 3984 MHz
+P0-Cluster HW active residency:  58.89% (1260 MHz: 3.6% 1512 MHz:   0% 1800 MHz:   0% 2088 MHz: .26% 2352 MHz:   0% 2616 MHz:   0% 2868 MHz:   0% 3096 MHz:   0% 3300 MHz: .01% 3468 MHz:   0% 3624 MHz: .05% 3756 MHz: .01% 3852 MHz: .03% 3924 MHz:  30% 3996 MHz: .02% 4044 MHz:   0% 4104 MHz: .04% 4416 MHz:  11% 4512 MHz:  14%)
+P0-Cluster idle residency:   5.58%
+P0-Cluster down residency:  35.53%
+CPU 4 frequency: 4179 MHz
+CPU 4 active residency:  51.45% (1260 MHz: 3.8% 1512 MHz: .10% 1800 MHz: .16% 2088 MHz: .10% 2352 MHz: .05% 2616 MHz: .09% 2868 MHz: .13% 3096 MHz: .42% 3300 MHz: .50% 3468 MHz: .14% 3624 MHz: .47% 3756 MHz: .32% 3852 MHz: .24% 3924 MHz: .22% 3996 MHz: .25% 4044 MHz: .33% 4104 MHz: 1.0% 4416 MHz: 1.8% 4512 MHz:  41%)
+CPU 4 idle residency:  22.27%
+CPU 4 down residency:  26.28%
+CPU 5 frequency: 4179 MHz
+CPU 5 active residency:  55.89% (1260 MHz: 3.8% 1512 MHz: .16% 1800 MHz: .20% 2088 MHz: .10% 2352 MHz: .03% 2616 MHz: .09% 2868 MHz: .29% 3096 MHz: .29% 3300 MHz: .91% 3468 MHz: .22% 3624 MHz: .65% 3756 MHz: .77% 3852 MHz: .38% 3924 MHz: .29% 3996 MHz: .43% 4044 MHz: .27% 4104 MHz: 1.3% 4416 MHz: 2.0% 4512 MHz:  44%)
+CPU 5 idle residency:  19.28%
+CPU 5 down residency:  24.83%
+CPU 6 frequency: 4108 MHz
+CPU 6 active residency:  54.26% (1260 MHz: 4.1% 1512 MHz: .15% 1800 MHz: .47% 2088 MHz: .41% 2352 MHz: .11% 2616 MHz: .46% 2868 MHz: .32% 3096 MHz: .23% 3300 MHz: .46% 3468 MHz: .37% 3624 MHz: .61% 3756 MHz: .52% 3852 MHz: .55% 3924 MHz: .40% 3996 MHz: .25% 4044 MHz: .60% 4104 MHz: 1.9% 4416 MHz: 2.0% 4512 MHz:  40%)
+CPU 6 idle residency:  20.04%
+CPU 6 down residency:  25.70%
+CPU 7 frequency: 4149 MHz
+CPU 7 active residency:  51.81% (1260 MHz: 4.0% 1512 MHz: .11% 1800 MHz: .26% 2088 MHz: .19% 2352 MHz: .08% 2616 MHz: .10% 2868 MHz: .14% 3096 MHz: .29% 3300 MHz: .50% 3468 MHz: .25% 3624 MHz: .53% 3756 MHz: .83% 3852 MHz: .46% 3924 MHz: .43% 3996 MHz: .31% 4044 MHz: .37% 4104 MHz: .98% 4416 MHz: 1.9% 4512 MHz:  40%)
+CPU 7 idle residency:  22.14%
+CPU 7 down residency:  26.04%
+
+P1-Cluster HW active frequency: 4184 MHz
+P1-Cluster HW active residency:  99.70% (1260 MHz: .16% 1512 MHz:   0% 1800 MHz: .14% 2088 MHz:   0% 2352 MHz:   0% 2616 MHz:   0% 2868 MHz:   0% 3096 MHz: .02% 3300 MHz: .08% 3468 MHz:   0% 3624 MHz:   0% 3756 MHz: .10% 3852 MHz: .17% 3924 MHz:  38% 3996 MHz: .99% 4044 MHz:  16% 4104 MHz:   0% 4416 MHz:  15% 4512 MHz:  30%)
+P1-Cluster idle residency:   0.30%
+P1-Cluster down residency:   0.00%
+CPU 8 frequency: 4497 MHz
+CPU 8 active residency:  48.54% (1260 MHz: .02% 1512 MHz:   0% 1800 MHz: .14% 2088 MHz:   0% 2352 MHz:   0% 2616 MHz:   0% 2868 MHz:   0% 3096 MHz: .02% 3300 MHz: .08% 3468 MHz:   0% 3624 MHz:   0% 3756 MHz: .10% 3852 MHz: .17% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz:   0% 4416 MHz: .04% 4512 MHz:  48%)
+CPU 8 idle residency:  51.46%
+CPU 8 down residency:   0.00%
+CPU 9 frequency: 4505 MHz
+CPU 9 active residency:  53.95% (1260 MHz:   0% 1512 MHz:   0% 1800 MHz: .06% 2088 MHz:   0% 2352 MHz:   0% 2616 MHz:   0% 2868 MHz:   0% 3096 MHz: .02% 3300 MHz: .07% 3468 MHz:   0% 3624 MHz:   0% 3756 MHz: .02% 3852 MHz: .11% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz:   0% 4416 MHz: .04% 4512 MHz:  54%)
+CPU 9 idle residency:  46.05%
+CPU 9 down residency:   0.00%
+CPU 10 frequency: 4503 MHz
+CPU 10 active residency:  49.44% (1260 MHz: .00% 1512 MHz:   0% 1800 MHz: .14% 2088 MHz:   0% 2352 MHz:   0% 2616 MHz:   0% 2868 MHz:   0% 3096 MHz: .02% 3300 MHz: .04% 3468 MHz:   0% 3624 MHz:   0% 3756 MHz: .00% 3852 MHz: .01% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz:   0% 4416 MHz: .04% 4512 MHz:  49%)
+CPU 10 idle residency:  50.56%
+CPU 10 down residency:   0.00%
+CPU 11 frequency: 4509 MHz
+CPU 11 active residency:  57.64% (1260 MHz: .00% 1512 MHz:   0% 1800 MHz: .06% 2088 MHz:   0% 2352 MHz:   0% 2616 MHz:   0% 2868 MHz:   0% 3096 MHz: .00% 3300 MHz: .02% 3468 MHz:   0% 3624 MHz:   0% 3756 MHz:   0% 3852 MHz: .03% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz:   0% 4416 MHz: .04% 4512 MHz:  57%)
+CPU 11 idle residency:  42.36%
+CPU 11 down residency:   0.00%
+
+CPU Power: 10253 mW
+GPU Power: 399 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 10652 mW
+
+
+*** Sampled system activity (Thu Nov 19 16:06:50 2026 +0000) (1024.31ms elapsed) ***
+
+*** Running tasks ***
+
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)
+kernel_task                        0      1967.86   0.00   1653.21 0.00               3750.20 0.00              
+simulator                          7523   580.12    31.09  262.37  0.00               262.37  0.00              
+DEAD_TASKS                         -1     387.09    15.85  0.00    0.00               0.98    0.00              
+top                                7540   808.00    13.88  0.00    0.00               0.00    0.00              
+Code                               675    340.74    71.68  100.46  0.00               100.46  0.00              
+Code Helper (Renderer)             809    142.58    80.23  3.90    2.93               91.68   0.00              
+WindowServer                       378    165.37    42.57  41.94   0.00               495.47  0.00              
+systemstats                        316    87.40     52.73  0.00    0.00               0.00    0.00              
+Code Helper                        59640  92.07     42.72  0.98    0.98               242.86  0.00              
+NordVPN                            594    24.29     57.77  0.00    0.00               51.69   0.00              
+sysmond                            832    92.50     18.82  0.00    0.00               0.00    0.00              
+powermetrics                       7531   18.98     5.05   0.00    0.00               0.98    0.00              
+Code Helper (Plugin)               26231  15.58     61.44  9.75    0.00               18.53   0.00              
+plugin-container                   1310   79.11     32.74  0.00    0.00               42.92   0.00              
+launchd                            1      24.86     29.69  0.00    0.00               0.00    0.00              
+mdworker_shared                    7538   116.45    69.38  0.00    0.00               7.83    0.00              
+plugin-container                   76418  104.99    66.85  0.00    0.00               45.84   0.00              
+Code Helper (Plugin)               26356  4.18      72.95  8.78    0.98               10.73   0.00              
+coreaudiod                         399    86.02     96.19  0.00    0.00               86.81   0.00              
+coreduetd                          342    43.56     66.93  0.00    0.00               15.61   0.00              
+fileproviderd                      687    61.50     70.25  0.00    0.00               35.11   0.00              
+com.apple.WebKit.Networking        767    3.14      19.04  0.00    0.00               6.83    0.00              
+opendirectoryd                     347    13.31     32.55  0.00    0.00               0.00    0.00              
+UniversalControl                   833    44.21     51.42  0.00    0.00               0.00    0.00              
+com.apple.AppleUserHIDDrivers      555    42.23     22.46  0.00    0.00               0.00    0.00              
+OneDrive                           91960  33.17     39.79  0.00    0.00               23.41   0.00              
+grep                               7541   6.56      32.36  0.00    0.00               0.00    0.00              
+OneDrive File Provider             6569   35.92     22.13  0.00    0.00               5.85    0.00              
+sleep                              7542   4.26      42.71  0.00    0.00               0.00    0.00              
+plugin-container                   16308  19.79     71.83  0.00    0.00               42.92   0.00              
+Code Helper                        844    1.68      73.27  0.98    0.00               2.93    0.00              
+mdworker_shared                    5999   21.31     57.29  0.00    0.00               30.24   0.00              
+plugin-container                   95203  25.87     43.82  0.00    0.00               7.80    0.00              
+Code Helper (Plugin)               30151  1.51      59.32  7.80    0.00               7.80    0.00              
+runningboardd                      382    5.95      74.07  0.00    0.00               0.98    0.00              
+Code Helper                        839    1.84      24.51  9.75    0.00               19.51   0.00              
+LinearMouse                        1277   22.64     82.73  0.00    0.00               0.98    0.00              
+zsh                                7526   1.22      10.71  0.00    0.00               0.00    0.00              
+plugin-container                   51485  29.49     79.50  0.00    0.00               5.85    0.00              
+Code Helper                        5047   1.32      29.15  4.88    0.00               10.73   0.00              
+suggestd                           706    17.04     72.66  0.00    0.00               10.73   0.00              
+mds_stores                         566    21.60     52.77  0.00    0.00               27.31   0.00              
+Code Helper                        803    1.04      48.27  0.00    0.00               2.93    0.00              
+cpptools                           26320  0.99      61.61  0.00    0.00               13.65   0.00              
+corespotlightd                     759    13.52     57.61  0.00    0.00               33.16   0.00              
+logd                               308    17.46     38.99  0.00    0.00               4.88    0.00              
+Spotify                            17981  19.59     69.42  11.70   0.98               55.59   0.00              
+mds                                336    15.47     40.03  0.00    0.00               35.11   0.00              
+locationd                          355    5.14      82.15  0.00    0.00               2.93    0.00              
+plugin-container                   26746  11.31     5.66   0.00    0.00               38.04   0.00              
+com.cisco.anyconnect.macos.acsoc   552    9.89      49.02  0.00    0.00               0.00    0.00              
+Code Helper                        26230  0.85      38.22  0.98    0.00               1.95    0.00              
+notifyd                            371    3.39      51.50  0.00    0.00               0.00    0.00              
+AlDente                            691    9.84      56.59  0.00    0.00               0.98    0.00              
+com.apphousekitchen.aldente-pro.   724    1.93      40.92  0.00    0.00               0.00    0.00              
+com.apple.DriverKit-AppleBCMWLAN   553    9.94      59.04  0.00    0.00               164.83  0.00              
+gamepolicyd                        716    0.73      56.95  0.00    0.00               0.00    0.00              
+fseventsd                          312    5.65      13.36  1.95    0.00               9.75    0.00              
+Code Helper (Plugin)               5370   0.36      38.38  2.93    0.00               5.85    0.00              
+cpptools                           5618   0.32      29.36  0.00    0.00               11.70   0.00              
+firefox                            1225   4.75      46.94  0.00    0.00               0.98    0.00              
+Code Helper (Plugin)               26340  0.28      33.78  0.98    0.00               0.98    0.00              
+powerd                             321    1.55      41.71  0.00    0.00               0.00    0.00              
+spotlightknowledged                1343   3.74      35.27  0.00    0.00               2.93    0.00              
+spotlightknowledged                1431   3.86      12.82  0.00    0.00               0.00    0.00              
+biomed                             406    3.58      60.92  0.00    0.00               11.70   0.00              
+mDNSResponder                      460    4.49      57.63  19.51   0.00               31.21   0.00              
+cfprefsd                           564    4.37      43.28  0.00    0.00               0.00    0.00              
+Firefox GPU Helper                 1299   1.38      54.24  0.00    0.00               10.73   0.00              
+com.apple.appkit.xpc.openAndSave   11231  1.55      43.75  0.00    0.00               1.95    0.00              
+cfprefsd                           380    3.19      51.09  0.00    0.00               0.98    0.00              
+com.apple.AmbientDisplayAgent      1831   2.21      43.62  0.00    0.00               0.00    0.00              
+Finder                             696    1.85      54.03  0.00    0.00               1.95    0.00              
+com.apple.appkit.xpc.openAndSave   11060  1.43      54.00  0.00    0.00               0.98    0.00              
+syslogd                            343    0.95      25.07  0.00    0.00               0.00    0.00              
+plugin-container                   9238   0.92      94.91  0.00    0.00               1.95    0.00              
+mysqld                             541    2.29      43.89  0.00    0.00               98.51   0.00              
+PerfPowerServices                  59368  1.05      53.84  0.00    0.00               0.00    0.00              
+FocusriteControlServer             540    1.52      25.92  0.00    0.00               25.36   0.00              
+Code Helper (Plugin)               5048   0.12      58.09  0.00    0.00               0.98    0.00              
+plugin-container                   33849  0.81      71.77  0.00    0.00               4.88    0.00              
+Activity Monitor                   2421   2.15      82.02  0.00    0.00               0.98    0.00              
+usbmuxd                            352    0.78      33.47  0.00    0.00               0.98    0.00              
+corebrightnessd                    373    1.52      43.57  0.00    0.00               0.98    0.00              
+bluetoothd                         370    0.94      65.41  0.00    0.00               0.98    0.00              
+com.apple.DriverKit.AppleUserECM   93640  1.58      24.34  0.00    0.00               7.80    0.00              
+AMPDeviceDiscoveryAgent            709    0.62      43.18  0.00    0.00               1.95    0.00              
+searchpartyd                       545    0.69      69.00  0.00    0.00               0.00    0.00              
+plugin-container                   51519  0.98      70.55  0.00    0.00               2.93    0.00              
+symptomsd                          437    0.96      54.50  0.00    0.00               0.00    0.00              
+cpptools-srv                       31521  0.06      22.46  0.00    0.00               4.88    0.00              
+launchservicesd                    350    1.65      48.92  0.00    0.00               0.00    0.00              
+plugin-container                   25945  0.86      76.92  0.00    0.00               3.90    0.00              
+cpptools-srv                       64619  0.06      26.82  0.00    0.00               4.88    0.00              
+cpptools-srv                       36497  0.06      27.41  0.00    0.00               4.88    0.00              
+syspolicyd                         462    0.65      34.77  0.00    0.00               4.88    0.00              
+plugin-container                   1303   1.20      65.84  0.00    0.00               5.85    0.00              
+WindowManager                      579    0.72      80.32  0.00    0.00               0.00    0.00              
+Spotify Helper                     17987  1.14      39.45  0.00    0.00               0.00    0.00              
+plugin-container                   51496  1.64      52.04  0.00    0.00               1.95    0.00              
+nesessionmanager                   356    0.85      45.00  0.00    0.00               0.00    0.00              
+UserEventAgent                     569    0.57      71.66  0.00    0.00               1.95    0.00              
+trustevaluationagent               7488   0.78      9.98   0.00    0.00               13.65   0.00              
+cpptools-srv                       99815  0.06      31.07  0.00    0.00               4.88    0.00              
+lsd                                578    0.34      49.80  0.00    0.00               0.00    0.00              
+cpptools-srv                       5738   0.04      25.49  0.00    0.00               2.93    0.00              
+FinderSyncExtension                60009  0.36      50.23  0.00    0.00               0.98    0.00              
+cpptools-srv2                      5638   0.04      29.11  0.00    0.00               3.90    0.00              
+audioclocksyncd                    513    0.63      46.71  0.00    0.00               0.00    0.00              
+diskarbitrationd                   339    0.40      51.23  0.00    0.00               0.00    0.00              
+cpptools-srv2                      5636   0.04      23.41  0.00    0.00               2.93    0.00              
+MobileDeviceUpdater                8509   0.23      59.10  0.00    0.00               0.00    0.00              
+cpptools-srv2                      26391  0.04      23.04  0.00    0.00               2.93    0.00              
+plugin-container                   33790  1.05      68.56  0.00    0.00               4.88    0.00              
+cpptools-srv2                      27177  0.03      29.40  0.00    0.00               2.93    0.00              
+Cisco Secure Client                1282   0.63      54.43  0.00    0.00               8.78    0.00              
+contextstored                      384    0.53      56.36  0.00    0.00               0.00    0.00              
+trustevaluationagent               7485   0.53      10.80  0.00    0.00               6.83    0.00              
+duetexpertd                        91819  0.51      32.36  0.00    0.00               0.00    0.00              
+csc_iseagentd                      1311   0.52      31.17  0.00    0.00               26.33   0.00              
+FinderSyncExtension                60007  0.57      41.25  0.00    0.00               0.98    0.00              
+amsaccountsd                       792    0.27      32.72  0.00    0.00               2.93    0.00              
+FinderSyncExtension                60008  0.52      50.73  0.00    0.00               0.98    0.00              
+universalaccessd                   575    0.28      51.93  0.00    0.00               0.00    0.00              
+filecoordinationd                  700    0.44      44.41  0.00    0.00               0.98    0.00              
+PasswordBreachAgent                14477  0.29      18.53  0.00    0.00               5.85    0.00              
+thermalmonitord                    346    0.15      28.28  0.00    0.00               0.98    0.00              
+apsd                               349    0.33      19.37  0.00    0.00               5.85    0.00              
+lockoutagent                       662    0.10      33.69  0.00    0.00               0.98    0.00              
+SafariBookmarksSyncAgent           14483  0.23      34.23  0.00    0.00               1.95    0.00              
+plugin-container                   49101  0.09      61.27  0.00    0.00               1.95    0.00              
+nearbyd                            733    0.22      26.01  0.00    0.00               0.98    0.00              
+airportd                           391    0.05      57.64  0.00    0.00               0.00    0.00              
+Spotify Helper                     17986  0.08      30.21  0.00    0.00               0.98    0.00              
+remindd                            93780  0.05      28.74  0.00    0.00               0.98    0.00              
+mediaanalysisd                     581    0.03      22.40  0.00    0.00               0.98    0.00              
+Spotlight                          752    0.03      25.56  0.00    0.00               0.98    0.00              
+ContinuityCaptureAgent             648    0.09      26.31  0.00    0.00               1.95    0.00              
+nsurlsessiond                      394    0.08      17.80  0.00    0.00               0.98    0.00              
+wifip2pd                           643    0.02      47.09  0.00    0.00               0.00    0.00              
+Microsoft Word                     10979  0.03      26.88  0.00    0.00               0.98    0.00              
+cameracaptured                     505    0.06      29.57  0.00    0.00               1.95    0.00              
+avconferenced                      791    0.03      28.79  0.00    0.00               0.98    0.00              
+trustd                             17302  0.06      21.90  0.00    0.00               1.95    0.00              
+ControlCenter                      694    0.06      22.64  0.00    0.00               0.98    0.00              
+iconservicesagent                  656    0.05      18.05  0.00    0.00               0.98    0.00              
+WeatherMenu                        1268   0.05      19.33  0.00    0.00               0.98    0.00              
+com.apple.audio.Core-Audio-Drive   485    0.01      22.76  0.00    0.00               0.98    0.00              
+mDNSResponderHelper                494    0.03      42.10  0.00    0.00               0.98    0.00              
+Spotify Helper                     17996  0.02      65.40  0.00    0.00               0.98    0.00              
+plugin-container                   2661   0.02      33.11  0.00    0.00               0.98    0.00              
+ALL_TASKS                          -2     5214.53   27.32  2144.86 5.86               6220.77 0.00              
+
+**** Processor usage ****
+
+E-Cluster Online: 100%
+E-Cluster HW active frequency: 1731 MHz
+E-Cluster HW active residency:  85.83% (1020 MHz:  36% 1404 MHz: 6.9% 1788 MHz: 7.6% 2112 MHz: 4.8% 2352 MHz: 2.5% 2532 MHz: 1.7% 2592 MHz:  26%)
+E-Cluster idle residency:  14.17%
+E-Cluster down residency:   0.00%
+CPU 0 frequency: 1773 MHz
+CPU 0 active residency:  57.30% (1020 MHz:  22% 1404 MHz: 4.6% 1788 MHz: 5.7% 2112 MHz: 4.0% 2352 MHz: 1.4% 2532 MHz: 1.5% 2592 MHz:  18%)
+CPU 0 idle residency:  42.70%
+CPU 0 down residency:   0.00%
+CPU 1 frequency: 1787 MHz
+CPU 1 active residency:  45.62% (1020 MHz:  16% 1404 MHz: 4.5% 1788 MHz: 5.1% 2112 MHz: 2.9% 2352 MHz: 1.1% 2532 MHz: 1.4% 2592 MHz:  14%)
+CPU 1 idle residency:  54.38%
+CPU 1 down residency:   0.00%
+CPU 2 frequency: 1809 MHz
+CPU 2 active residency:  38.12% (1020 MHz:  13% 1404 MHz: 4.0% 1788 MHz: 4.9% 2112 MHz: 2.0% 2352 MHz: 1.3% 2532 MHz: 1.2% 2592 MHz:  12%)
+CPU 2 idle residency:  61.88%
+CPU 2 down residency:   0.00%
+CPU 3 frequency: 1829 MHz
+CPU 3 active residency:  28.74% (1020 MHz: 8.8% 1404 MHz: 3.3% 1788 MHz: 4.0% 2112 MHz: 1.7% 2352 MHz: .48% 2532 MHz: .72% 2592 MHz: 9.8%)
+CPU 3 idle residency:  71.26%
+CPU 3 down residency:   0.00%
+
+P0-Cluster Online: 100%
+P0-Cluster HW active frequency: 4087 MHz
+P0-Cluster HW active residency: 100.00% (1260 MHz: .01% 1512 MHz:   0% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz:   0% 2616 MHz: .04% 2868 MHz:   0% 3096 MHz:   0% 3300 MHz: .04% 3468 MHz:   0% 3624 MHz:   0% 3756 MHz: .00% 3852 MHz: .00% 3924 MHz:  68% 3996 MHz: .20% 4044 MHz:   0% 4104 MHz: .42% 4416 MHz:  22% 4512 MHz: 9.7%)
+P0-Cluster idle residency:   0.00%
+P0-Cluster down residency:   0.00%
+CPU 4 frequency: 4497 MHz
+CPU 4 active residency:  73.34% (1260 MHz: .01% 1512 MHz:   0% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz:   0% 2616 MHz: .00% 2868 MHz:   0% 3096 MHz:   0% 3300 MHz: .03% 3468 MHz:   0% 3624 MHz:   0% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz: .58% 4416 MHz: 8.6% 4512 MHz:  64%)
+CPU 4 idle residency:  26.66%
+CPU 4 down residency:   0.00%
+CPU 5 frequency: 4499 MHz
+CPU 5 active residency:  73.51% (1260 MHz:   0% 1512 MHz:   0% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz:   0% 2616 MHz:   0% 2868 MHz:   0% 3096 MHz:   0% 3300 MHz: .00% 3468 MHz:   0% 3624 MHz:   0% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz: .39% 4416 MHz: 8.4% 4512 MHz:  65%)
+CPU 5 idle residency:  26.49%
+CPU 5 down residency:   0.00%
+CPU 6 frequency: 4499 MHz
+CPU 6 active residency:  73.30% (1260 MHz:   0% 1512 MHz:   0% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz:   0% 2616 MHz: .00% 2868 MHz:   0% 3096 MHz:   0% 3300 MHz: .02% 3468 MHz:   0% 3624 MHz:   0% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz: .41% 4416 MHz: 8.1% 4512 MHz:  65%)
+CPU 6 idle residency:  26.70%
+CPU 6 down residency:   0.00%
+CPU 7 frequency: 4496 MHz
+CPU 7 active residency:  73.50% (1260 MHz: .01% 1512 MHz:   0% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz:   0% 2616 MHz: .04% 2868 MHz:   0% 3096 MHz:   0% 3300 MHz: .03% 3468 MHz:   0% 3624 MHz:   0% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz: .54% 4416 MHz: 8.6% 4512 MHz:  64%)
+CPU 7 idle residency:  26.50%
+CPU 7 down residency:   0.00%
+
+P1-Cluster HW active frequency: 4056 MHz
+P1-Cluster HW active residency:  91.21% (1260 MHz: 7.8% 1512 MHz: .30% 1800 MHz:   0% 2088 MHz: .28% 2352 MHz: .16% 2616 MHz:   0% 2868 MHz: .19% 3096 MHz:   0% 3300 MHz:   0% 3468 MHz:   0% 3624 MHz:   0% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:  17% 3996 MHz: 1.3% 4044 MHz: 2.0% 4104 MHz: 2.2% 4416 MHz:  19% 4512 MHz:  41%)
+P1-Cluster idle residency:   8.79%
+P1-Cluster down residency:   0.00%
+CPU 8 frequency: 4496 MHz
+CPU 8 active residency:  30.45% (1260 MHz: .08% 1512 MHz: .00% 1800 MHz:   0% 2088 MHz: .00% 2352 MHz: .01% 2616 MHz:   0% 2868 MHz:   0% 3096 MHz:   0% 3300 MHz:   0% 3468 MHz:   0% 3624 MHz:   0% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz: .40% 4416 MHz: .47% 4512 MHz:  29%)
+CPU 8 idle residency:  69.55%
+CPU 8 down residency:   0.00%
+CPU 9 frequency: 4482 MHz
+CPU 9 active residency:  28.64% (1260 MHz: .19% 1512 MHz:   0% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz:   0% 2616 MHz:   0% 2868 MHz: .14% 3096 MHz:   0% 3300 MHz:   0% 3468 MHz:   0% 3624 MHz:   0% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz: .03% 4416 MHz: .17% 4512 MHz:  28%)
+CPU 9 idle residency:  71.36%
+CPU 9 down residency:   0.00%
+CPU 10 frequency: 4476 MHz
+CPU 10 active residency:  32.83% (1260 MHz: .09% 1512 MHz: .02% 1800 MHz:   0% 2088 MHz: .00% 2352 MHz: .10% 2616 MHz:   0% 2868 MHz: .00% 3096 MHz:   0% 3300 MHz:   0% 3468 MHz:   0% 3624 MHz:   0% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz: 1.1% 4416 MHz: 1.6% 4512 MHz:  30%)
+CPU 10 idle residency:  67.17%
+CPU 10 down residency:   0.00%
+CPU 11 frequency: 4470 MHz
+CPU 11 active residency:  33.33% (1260 MHz: .13% 1512 MHz: .02% 1800 MHz:   0% 2088 MHz: .17% 2352 MHz: .00% 2616 MHz:   0% 2868 MHz:   0% 3096 MHz:   0% 3300 MHz:   0% 3468 MHz:   0% 3624 MHz:   0% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz: .65% 4416 MHz: 2.2% 4512 MHz:  30%)
+CPU 11 idle residency:  66.67%
+CPU 11 down residency:   0.00%
+
+CPU Power: 10953 mW
+GPU Power: 284 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 11237 mW
+
+
+*** Sampled system activity (Thu Nov 19 16:06:51 2026 +0000) (1029.76ms elapsed) ***
+
+*** Running tasks ***
+
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)
+kernel_task                        0      2024.39   0.00   4499.84 0.00               13235.00 0.00              
+DEAD_TASKS                         -1     511.36    28.49  0.00    0.00               18.45   0.00              
+simulator                          7523   576.15    28.87  267.44  0.00               267.44  0.00              
+Code                               675    398.17    70.55  182.83  0.00               183.81  0.00              
+Code Helper (Renderer)             809    405.47    88.52  13.62   11.67              82.66   0.00              
+WindowServer                       378    199.88    39.53  92.39   0.00               614.63  0.00              
+top                                7550   634.32    13.49  0.00    0.00               0.00    0.00              
+Code Helper                        59640  106.92    48.14  4.86    0.00               265.50  0.00              
+sysmond                            832    26.29     15.87  0.00    0.00               1.95    0.00              
+NordVPN                            594    26.21     54.58  0.00    0.00               49.60   0.00              
+Code Helper (Plugin)               26231  18.49     51.98  28.20   0.97               44.74   0.00              
+powermetrics                       7531   18.18     5.34   0.00    0.00               0.97    0.00              
+launchd                            1      133.00    0.79   0.00    0.00               0.97    0.00              
+Code Helper (Plugin)               26356  5.84      55.85  11.67   0.97               17.51   0.00              
+coreaudiod                         399    73.12     97.00  0.00    0.00               85.58   0.00              
+grep                               7551   14.14     28.64  0.00    0.00               0.00    0.00              
+Code Helper                        26230  2.87      42.58  7.78    0.00               8.75    0.00              
+UniversalControl                   833    40.33     46.23  0.00    0.00               0.00    0.00              
+sleep                              7552   10.77     29.14  0.00    0.00               0.00    0.00              
+com.apple.AppleUserHIDDrivers      555    36.54     20.52  0.00    0.00               0.00    0.00              
+OneDrive                           91960  36.06     29.43  0.00    0.00               50.57   0.00              
+Activity Monitor                   2421   29.06     24.34  0.00    0.00               2.92    0.00              
+Code Helper (Plugin)               30151  2.10      29.67  4.86    0.00               4.86    0.00              
+plugin-container                   51519  32.36     42.47  0.00    0.00               10.70   0.00              
+notifyd                            371    4.11      48.80  0.00    0.00               0.00    0.00              
+zsh                                7526   1.89      8.32   0.00    0.00               0.00    0.00              
+Code Helper                        839    2.02      24.30  10.70   0.00               21.40   0.00              
+LinearMouse                        1277   18.96     77.59  0.00    0.00               0.00    0.00              
+opendirectoryd                     347    9.38      28.83  0.00    0.00               0.00    0.00              
+Spotify                            17981  19.46     54.64  15.56   0.00               58.35   0.00              
+logd                               308    17.62     29.72  0.00    0.00               0.00    0.00              
+mdworker_shared                    7538   6.94      57.23  0.00    0.00               0.00    0.00              
+cpptools                           26320  1.28      15.34  0.00    0.00               14.59   0.00              
+WindowManager                      579    5.41      62.63  0.00    0.00               0.00    0.00              
+Code Helper                        5047   0.82      22.29  0.97    0.00               1.95    0.00              
+syspolicyd                         462    1.42      17.57  0.00    0.00               4.86    0.00              
+fileproviderd                      687    16.99     42.51  0.00    0.00               26.26   0.00              
+Code Helper                        844    0.84      29.99  0.00    0.00               0.00    0.00              
+firefox                            1225   8.44      20.85  0.00    0.00               3.89    0.00              
+com.apple.hiservices-xpcservice    595    0.38      20.56  0.00    0.00               0.00    0.00              
+launchservicesd                    350    4.84      32.53  0.00    0.00               0.00    0.00              
+cpptools                           5618   0.64      20.82  0.00    0.00               12.64   0.00              
+plugin-container                   76418  6.35      14.18  0.00    0.00               27.23   0.00              
+powerd                             321    0.73      28.87  0.00    0.00               0.97    0.00              
+fseventsd                          312    7.85      16.41  1.95    0.00               19.45   0.00              
+com.cisco.anyconnect.macos.acsoc   552    8.05      35.66  0.00    0.00               0.00    0.00              
+mds_stores                         566    3.94      31.60  0.00    0.00               0.00    0.00              
+plugin-container                   33790  4.41      16.61  0.00    0.00               3.89    0.00              
+plugin-container                   16308  5.07      12.65  0.00    0.00               9.73    0.00              
+plugin-container                   33849  7.67      13.25  0.00    0.00               24.31   0.00              
+mds                                336    6.91      35.21  0.00    0.00               9.73    0.00              
+OneDrive File Provider             6569   6.44      32.01  0.00    0.00               6.81    0.00              
+plugin-container                   51485  4.81      10.32  0.00    0.00               17.51   0.00              
+Code Helper (Plugin)               5048   0.27      66.43  0.97    0.00               1.95    0.00              
+plugin-container                   9238   4.21      18.78  0.00    0.00               3.89    0.00              
+mDNSResponder                      460    4.22      54.96  15.56   0.00               27.23   0.00              
+com.apple.DriverKit-AppleBCMWLAN   553    4.16      54.20  0.00    0.00               73.91   0.00              
+suggestd                           706    1.71      30.33  0.00    0.00               0.97    0.00              
+plugin-container                   25945  3.35      16.37  0.00    0.00               1.95    0.00              
+airportd                           391    2.82      19.68  0.00    0.00               2.92    0.00              
+plugin-container                   1310   3.23      11.02  0.00    0.00               4.86    0.00              
+com.apple.AmbientDisplayAgent      1831   1.55      45.94  0.00    0.00               0.00    0.00              
+distnoted                          563    2.67      39.09  0.00    0.00               0.00    0.00              
+plugin-container                   51496  1.65      9.08   0.00    0.00               4.86    0.00              
+bluetoothd                         370    3.58      12.45  0.00    0.00               19.45   0.00              
+Spotify Helper                     17987  2.59      15.07  0.00    0.00               1.95    0.00              
+revisiond                          366    2.97      31.75  0.00    0.00               1.95    0.00              
+mysqld                             541    2.13      38.57  0.00    0.00               99.20   0.00              
+Finder                             696    1.15      36.33  0.00    0.00               0.00    0.00              
+cpptools-srv                       99815  0.11      14.84  0.00    0.00               4.86    0.00              
+corebrightnessd                    373    0.99      45.24  0.00    0.00               0.97    0.00              
+coreduetd                          342    1.86      10.60  0.00    0.00               27.23   0.00              
+callservicesd                      627    1.66      4.74   0.00    0.00               0.00    0.00              
+distnoted                          361    2.17      28.77  0.00    0.00               0.00    0.00              
+com.apple.appkit.xpc.openAndSave   11060  0.90      45.58  0.00    0.00               0.00    0.00              
+FocusriteControlServer             540    1.37      25.24  0.00    0.00               24.31   0.00              
+cpptools-srv2                      27177  0.08      11.45  0.00    0.00               2.92    0.00              
+plugin-container                   1303   1.14      28.90  0.00    0.00               3.89    0.00              
+symptomsd                          437    1.30      28.17  0.00    0.00               0.00    0.00              
+usbmuxd                            352    1.00      7.36   0.00    0.00               0.00    0.00              
+com.apple.DriverKit.AppleUserECM   93640  1.36      26.20  0.00    0.00               7.78    0.00              
+plugin-container                   95203  1.64      9.42   0.00    0.00               1.95    0.00              
+com.apple.WebKit.Networking        767    0.26      20.46  0.00    0.00               5.84    0.00              
+Dock                               692    0.70      26.86  0.00    0.00               0.00    0.00              
+universalaccessd                   575    0.68      11.12  0.00    0.00               0.00    0.00              
+runningboardd                      382    1.59      16.68  0.00    0.00               0.97    0.00              
+cfprefsd                           564    0.76      6.70   0.00    0.00               0.00    0.00              
+cfprefsd                           380    0.78      6.57   0.00    0.00               0.00    0.00              
+filecoordinationd                  700    0.53      19.83  0.00    0.00               0.00    0.00              
+locationd                          355    1.52      9.65   0.00    0.00               27.23   0.00              
+com.apple.appkit.xpc.openAndSave   11231  1.01      49.73  0.00    0.00               0.00    0.00              
+Firefox GPU Helper                 1299   1.41      65.12  0.00    0.00               10.70   0.00              
+UserEventAgent                     569    0.47      61.32  0.00    0.00               0.00    0.00              
+cpptools-srv2                      5636   0.06      16.14  0.00    0.00               2.92    0.00              
+nesessionmanager                   356    1.43      16.62  0.00    0.00               0.00    0.00              
+cpptools-srv                       36497  0.05      30.08  0.00    0.00               4.86    0.00              
+Spotify Helper                     17989  0.87      7.92   0.00    0.00               0.97    0.00              
+cpptools-srv                       64619  0.05      28.04  0.00    0.00               4.86    0.00              
+cpptools-srv                       31521  0.07      24.13  0.00    0.00               4.86    0.00              
+gamepolicyd                        716    0.87      10.97  0.00    0.00               16.53   0.00              
+cpptools-srv                       5738   0.09      13.83  0.00    0.00               2.92    0.00              
+cameracaptured                     505    0.97      9.28   0.00    0.00               6.81    0.00              
+audioclocksyncd                    513    0.75      42.16  0.00    0.00               0.00    0.00              
+plugin-container                   49101  0.65      16.33  0.00    0.00               1.95    0.00              
+contextstored                      384    0.46      35.55  0.00    0.00               0.00    0.00              
+securityd                          353    0.29      10.08  0.00    0.00               0.00    0.00              
+cpptools-srv2                      5638   0.03      29.56  0.00    0.00               2.92    0.00              
+cpptools-srv2                      26391  0.03      23.75  0.00    0.00               2.92    0.00              
+spotlightknowledged                1431   0.24      17.76  0.00    0.00               0.00    0.00              
+authd                              436    0.25      6.78   0.00    0.00               0.00    0.00              
+QuickLookUIService                 704    0.65      4.50   0.00    0.00               14.59   0.00              
+remindd                            93780  0.60      7.67   0.00    0.00               12.64   0.00              
+lockoutagent                       662    0.28      12.98  0.00    0.00               0.97    0.00              
+csc_iseagentd                      1311   0.46      32.06  0.00    0.00               27.23   0.00              
+com.apple.geod                     514    0.47      4.27   0.00    0.00               1.95    0.00              
+PerfPowerServices                  59368  0.24      52.78  0.00    0.00               0.00    0.00              
+duetexpertd                        91819  0.24      42.69  0.00    0.00               0.00    0.00              
+Cisco Secure Client                1282   0.51      64.10  0.00    0.00               7.78    0.00              
+com.apple.WebKit.GPU               9056   0.56      4.49   0.00    0.00               6.81    0.00              
+distnoted                          551    0.44      8.59   0.00    0.00               0.00    0.00              
+syslogd                            343    0.15      7.88   0.00    0.00               0.97    0.00              
+distnoted                          2213   0.42      9.04   0.00    0.00               0.00    0.00              
+audioanalyticsd                    530    0.39      4.59   0.00    0.00               1.95    0.00              
+distnoted                          515    0.45      8.44   0.00    0.00               0.00    0.00              
+distnoted                          1161   0.43      9.04   0.00    0.00               0.00    0.00              
+distnoted                          474    0.41      9.16   0.00    0.00               0.00    0.00              
+distnoted                          1181   0.43      8.46   0.00    0.00               0.00    0.00              
+distnoted                          593    0.41      9.47   0.00    0.00               0.00    0.00              
+distnoted                          417    0.38      9.46   0.00    0.00               0.00    0.00              
+distnoted                          444    0.38      10.88  0.00    0.00               0.00    0.00              
+distnoted                          642    0.37      10.20  0.00    0.00               0.00    0.00              
+distnoted                          794    0.36      9.70   0.00    0.00               0.00    0.00              
+distnoted                          1622   0.36      9.83   0.00    0.00               0.00    0.00              
+distnoted                          3348   0.34      8.92   0.00    0.00               0.00    0.00              
+configd                            319    0.26      11.29  0.00    0.00               1.95    0.00              
+WeatherMenu                        1268   0.21      6.65   0.00    0.00               0.97    0.00              
+distnoted                          13560  0.29      11.17  0.00    0.00               0.00    0.00              
+distnoted                          828    0.29      11.16  0.00    0.00               0.00    0.00              
+distnoted                          421    0.29      11.52  0.00    0.00               0.00    0.00              
+PasswordBreachAgent                14477  0.23      16.72  0.00    0.00               4.86    0.00              
+PAH_Extension                      789    0.17      8.64   0.00    0.00               0.97    0.00              
+apsd                               349    0.21      19.18  0.00    0.00               4.86    0.00              
+ContinuityCaptureAgent             648    0.08      22.82  0.00    0.00               1.95    0.00              
+amsondevicestoraged                785    0.30      6.60   0.00    0.00               0.97    0.00              
+NotificationCenter                 626    0.08      8.68   0.00    0.00               0.97    0.00              
+AlDente                            691    0.09      77.43  0.00    0.00               0.97    0.00              
+thermalmonitord                    346    0.12      37.62  0.00    0.00               0.97    0.00              
+mobiletimerd                       713    0.15      8.86   0.00    0.00               0.97    0.00              
+loginwindow                        381    0.03      16.04  0.00    0.00               0.97    0.00              
+com.apple.audio.Core-Audio-Drive   485    0.03      13.35  0.00    0.00               0.97    0.00              
+mDNSResponderHelper                494    0.05      28.24  0.00    0.00               0.97    0.00              
+ALL_TASKS                          -2     5088.97   26.56  5151.70 13.60              15701.77 0.00              
+
+**** Processor usage ****
+
+E-Cluster Online: 100%
+E-Cluster HW active frequency: 1843 MHz
+E-Cluster HW active residency:  80.87% (1020 MHz:  33% 1404 MHz: 4.3% 1788 MHz: 3.1% 2112 MHz: 1.4% 2352 MHz: 1.9% 2532 MHz: 1.6% 2592 MHz:  36%)
+E-Cluster idle residency:  19.13%
+E-Cluster down residency:   0.00%
+CPU 0 frequency: 1865 MHz
+CPU 0 active residency:  45.44% (1020 MHz:  18% 1404 MHz: 2.4% 1788 MHz: 1.9% 2112 MHz: .72% 2352 MHz: 1.7% 2532 MHz: 1.0% 2592 MHz:  20%)
+CPU 0 idle residency:  54.56%
+CPU 0 down residency:   0.00%
+CPU 1 frequency: 1899 MHz
+CPU 1 active residency:  34.26% (1020 MHz:  12% 1404 MHz: 2.2% 1788 MHz: 1.7% 2112 MHz: 1.1% 2352 MHz: 1.3% 2532 MHz: .83% 2592 MHz:  15%)
+CPU 1 idle residency:  65.74%
+CPU 1 down residency:   0.00%
+CPU 2 frequency: 1938 MHz
+CPU 2 active residency:  23.80% (1020 MHz: 7.5% 1404 MHz: 1.7% 1788 MHz: 1.4% 2112 MHz: .60% 2352 MHz: 1.0% 2532 MHz: .61% 2592 MHz:  11%)
+CPU 2 idle residency:  76.20%
+CPU 2 down residency:   0.00%
+CPU 3 frequency: 2021 MHz
+CPU 3 active residency:  19.28% (1020 MHz: 4.9% 1404 MHz: 1.6% 1788 MHz: 1.2% 2112 MHz: .46% 2352 MHz: .76% 2532 MHz: .25% 2592 MHz:  10%)
+CPU 3 idle residency:  80.72%
+CPU 3 down residency:   0.00%
+
+P0-Cluster Online: 100%
+P0-Cluster HW active frequency: 4200 MHz
+P0-Cluster HW active residency:  98.39% (1260 MHz:   0% 1512 MHz:   0% 1800 MHz:   0% 2088 MHz: .04% 2352 MHz:   0% 2616 MHz: .11% 2868 MHz: .36% 3096 MHz: .04% 3300 MHz: .40% 3468 MHz: .47% 3624 MHz: .23% 3756 MHz: .59% 3852 MHz: .00% 3924 MHz:  45% 3996 MHz: .06% 4044 MHz: .07% 4104 MHz: .31% 4416 MHz:  16% 4512 MHz:  34%)
+P0-Cluster idle residency:   1.61%
+P0-Cluster down residency:   0.00%
+CPU 4 frequency: 4510 MHz
+CPU 4 active residency:  54.23% (1260 MHz:   0% 1512 MHz:   0% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz:   0% 2616 MHz: .00% 2868 MHz: .01% 3096 MHz: .00% 3300 MHz:   0% 3468 MHz: .04% 3624 MHz: .01% 3756 MHz: .00% 3852 MHz:   0% 3924 MHz: .01% 3996 MHz: .01% 4044 MHz: .00% 4104 MHz: .06% 4416 MHz: .15% 4512 MHz:  54%)
+CPU 4 idle residency:  45.77%
+CPU 4 down residency:   0.00%
+CPU 5 frequency: 4510 MHz
+CPU 5 active residency:  53.08% (1260 MHz:   0% 1512 MHz:   0% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz:   0% 2616 MHz: .00% 2868 MHz: .01% 3096 MHz:   0% 3300 MHz: .01% 3468 MHz: .00% 3624 MHz: .07% 3756 MHz: .00% 3852 MHz:   0% 3924 MHz: .00% 3996 MHz:   0% 4044 MHz: .00% 4104 MHz: .06% 4416 MHz: .01% 4512 MHz:  53%)
+CPU 5 idle residency:  46.92%
+CPU 5 down residency:   0.00%
+CPU 6 frequency: 4511 MHz
+CPU 6 active residency:  52.45% (1260 MHz:   0% 1512 MHz:   0% 1800 MHz:   0% 2088 MHz: .01% 2352 MHz:   0% 2616 MHz:   0% 2868 MHz: .00% 3096 MHz:   0% 3300 MHz:   0% 3468 MHz: .00% 3624 MHz: .03% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz: .00% 4044 MHz: .00% 4104 MHz: .05% 4416 MHz: .11% 4512 MHz:  52%)
+CPU 6 idle residency:  47.55%
+CPU 6 down residency:   0.00%
+CPU 7 frequency: 4510 MHz
+CPU 7 active residency:  51.44% (1260 MHz:   0% 1512 MHz:   0% 1800 MHz:   0% 2088 MHz: .00% 2352 MHz:   0% 2616 MHz: .00% 2868 MHz: .01% 3096 MHz:   0% 3300 MHz: .00% 3468 MHz: .03% 3624 MHz: .01% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz: .00% 4104 MHz: .08% 4416 MHz: .11% 4512 MHz:  51%)
+CPU 7 idle residency:  48.56%
+CPU 7 down residency:   0.00%
+
+P1-Cluster HW active frequency: 4074 MHz
+P1-Cluster HW active residency:  98.95% (1260 MHz: 2.8% 1512 MHz: .21% 1800 MHz:   0% 2088 MHz: .00% 2352 MHz:   0% 2616 MHz:   0% 2868 MHz:   0% 3096 MHz:   0% 3300 MHz: .38% 3468 MHz:   0% 3624 MHz: .02% 3756 MHz: .00% 3852 MHz:   0% 3924 MHz:  53% 3996 MHz: .43% 4044 MHz: .40% 4104 MHz:   0% 4416 MHz:  16% 4512 MHz:  25%)
+P1-Cluster idle residency:   1.05%
+P1-Cluster down residency:   0.00%
+CPU 8 frequency: 4504 MHz
+CPU 8 active residency:  60.32% (1260 MHz: .07% 1512 MHz:   0% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz:   0% 2616 MHz:   0% 2868 MHz:   0% 3096 MHz:   0% 3300 MHz: .23% 3468 MHz:   0% 3624 MHz: .00% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz: .01% 4104 MHz:   0% 4416 MHz:   0% 4512 MHz:  60%)
+CPU 8 idle residency:  39.68%
+CPU 8 down residency:   0.00%
+CPU 9 frequency: 4502 MHz
+CPU 9 active residency:  60.85% (1260 MHz: .10% 1512 MHz: .03% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz:   0% 2616 MHz:   0% 2868 MHz:   0% 3096 MHz:   0% 3300 MHz: .18% 3468 MHz:   0% 3624 MHz: .00% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz: .00% 4104 MHz:   0% 4416 MHz:   0% 4512 MHz:  61%)
+CPU 9 idle residency:  39.15%
+CPU 9 down residency:   0.00%
+CPU 10 frequency: 4497 MHz
+CPU 10 active residency:  61.16% (1260 MHz: .18% 1512 MHz: .02% 1800 MHz:   0% 2088 MHz: .01% 2352 MHz:   0% 2616 MHz:   0% 2868 MHz:   0% 3096 MHz:   0% 3300 MHz: .20% 3468 MHz:   0% 3624 MHz: .00% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz: .01% 4104 MHz:   0% 4416 MHz:   0% 4512 MHz:  61%)
+CPU 10 idle residency:  38.84%
+CPU 10 down residency:   0.00%
+CPU 11 frequency: 4492 MHz
+CPU 11 active residency:  62.06% (1260 MHz: .27% 1512 MHz: .04% 1800 MHz:   0% 2088 MHz: .01% 2352 MHz:   0% 2616 MHz:   0% 2868 MHz:   0% 3096 MHz:   0% 3300 MHz: .21% 3468 MHz:   0% 3624 MHz: .00% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz: .01% 4104 MHz:   0% 4416 MHz:   0% 4512 MHz:  62%)
+CPU 11 idle residency:  37.94%
+CPU 11 down residency:   0.00%
+
+CPU Power: 10726 mW
+GPU Power: 512 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 11238 mW
+
+
+*** Sampled system activity (Thu Nov 19 16:06:52 2026 +0000) (1020.04ms elapsed) ***
+
+*** Running tasks ***
+
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)
+simulator                          7523   778.09    27.94  0.00    0.00               10.78   0.00              
+kernel_task                        0      1200.17   0.00   3193.62 0.00               10554.23 0.00              
+DEAD_TASKS                         -1     421.52    21.54  0.00    0.00               2.94    0.00              
+top                                7558   925.08    14.15  0.00    0.00               0.00    0.00              
+Code Helper (Renderer)             809    105.80    80.40  7.84    6.86               107.83  0.00              
+Code                               675    48.76     71.56  9.80    0.00               16.66   0.00              
+Code Helper (Plugin)               26231  37.76     47.14  35.29   0.00               44.11   0.00              
+WindowServer                       378    50.29     40.08  39.21   0.98               242.12  0.00              
+Code Helper                        59640  36.72     53.87  0.98    0.00               198.99  0.00              
+sysmond                            832    12.57     23.31  0.00    0.00               0.00    0.00              
+fileproviderd                      687    211.04    59.41  0.00    0.00               8.82    0.00              
+powermetrics                       7531   18.56     4.92   0.00    0.00               0.98    0.00              
+coreduetd                          342    77.92     69.51  0.00    0.00               0.00    0.00              
+corespotlightd                     759    45.73     63.55  0.98    0.00               0.98    0.00              
+coreaudiod                         399    76.89     96.24  0.00    0.00               86.26   0.00              
+cpptools                           26320  3.80      35.22  0.00    0.00               13.72   0.00              
+Code Helper (Plugin)               30151  3.54      21.77  6.86    0.00               7.84    0.00              
+plugin-container                   76418  67.59     40.95  0.00    0.00               5.88    0.00              
+suggestd                           706    27.57     71.76  1.96    0.00               2.94    0.00              
+Code Helper (Renderer)             4809   3.75      9.77   0.00    0.00               0.00    0.00              
+OneDrive File Provider             6569   25.30     57.56  0.00    0.00               6.86    0.00              
+Code Helper (Plugin)               26340  2.11      27.25  1.96    0.00               2.94    0.00              
+grep                               7559   9.26      36.95  0.00    0.00               0.00    0.00              
+Code Helper                        26230  2.40      22.72  1.96    0.00               4.90    0.00              
+mds                                336    29.02     39.71  0.00    0.00               19.60   0.00              
+runningboardd                      382    23.47     45.29  0.00    0.00               3.92    0.00              
+Code Helper                        839    2.51      20.63  10.78   0.98               21.57   0.00              
+mds_stores                         566    26.08     53.84  0.00    0.00               0.00    0.00              
+OneDrive                           91960  16.14     53.11  0.00    0.00               16.66   0.00              
+launchd                            1      7.07      33.50  0.00    0.00               0.00    0.00              
+sleep                              7560   6.42      46.40  0.00    0.00               0.00    0.00              
+fseventsd                          312    22.60     17.06  5.88    0.00               32.35   0.00              
+Code Helper (Plugin)               26356  1.46      56.08  8.82    0.00               10.78   0.00              
+Code Helper                        844    1.45      31.25  1.96    0.00               3.92    0.00              
+notifyd                            371    3.84      49.71  0.00    0.00               0.00    0.00              
+Spotify                            17981  24.41     54.75  15.68   0.00               59.79   0.00              
+zsh                                7526   1.00      10.52  0.00    0.00               0.00    0.00              
+opendirectoryd                     347    8.45      31.09  0.00    0.00               0.00    0.00              
+filecoordinationd                  700    10.18     64.49  0.00    0.00               0.00    0.00              
+spotlightknowledged                1343   8.32      34.06  0.00    0.00               0.00    0.00              
+logd                               308    10.38     39.22  0.00    0.00               0.00    0.00              
+AlDente                            691    7.79      32.46  0.00    0.00               1.96    0.00              
+biomed                             406    7.05      52.78  0.00    0.00               0.00    0.00              
+Code Helper (Plugin)               5226   0.43      10.42  0.98    0.00               1.96    0.00              
+mdworker_shared                    7538   11.93     58.67  0.00    0.00               0.00    0.00              
+Code Helper (Plugin)               5187   0.70      7.35   0.98    0.00               1.96    0.00              
+WindowManager                      579    6.05      60.60  0.00    0.00               0.00    0.00              
+com.apple.DriverKit-AppleBCMWLAN   553    13.30     43.39  0.00    0.00               146.06  0.00              
+NordVPN                            594    2.51      51.22  0.00    0.00               49.01   0.00              
+mDNSResponder                      460    9.57      50.01  30.39   0.00               46.07   0.00              
+plugin-container                   25945  4.77      25.68  0.00    0.00               5.88    0.00              
+Code Helper                        5047   0.57      22.50  0.00    0.00               0.00    0.00              
+firefox                            1225   6.19      32.90  0.00    0.00               1.96    0.00              
+bluetoothd                         370    4.75      52.18  0.00    0.00               0.00    0.00              
+cpptools                           5618   0.45      20.94  0.00    0.00               12.74   0.00              
+rtcreportingd                      860    4.33      37.86  0.00    0.00               0.00    0.00              
+plugin-container                   16308  5.18      16.60  0.00    0.00               2.94    0.00              
+com.cisco.anyconnect.macos.acsoc   552    3.53      40.37  0.00    0.00               0.00    0.00              
+plugin-container                   9238   2.98      37.16  0.00    0.00               1.96    0.00              
+nearbyd                            733    2.43      26.52  0.98    0.00               1.96    0.00              
+UserEventAgent                     569    1.85      51.47  0.00    0.00               0.00    0.00              
+com.apphousekitchen.aldente-pro.   724    1.71      24.46  0.00    0.00               0.00    0.00              
+plugin-container                   51496  6.07      12.06  0.00    0.00               4.90    0.00              
+plugin-container                   51485  6.97      11.11  0.00    0.00               2.94    0.00              
+Stats                              1573   5.56      20.89  0.00    0.00               0.98    0.00              
+com.apple.hiservices-xpcservice    595    0.15      44.32  0.00    0.00               0.00    0.00              
+sharingd                           614    1.86      27.23  0.00    0.00               0.98    0.00              
+mdworker_shared                    7486   4.19      34.24  0.00    0.00               0.00    0.00              
+plugin-container                   2661   1.66      17.67  0.00    0.00               0.00    0.00              
+Finder                             696    4.42      52.88  0.00    0.00               0.00    0.00              
+mdworker_shared                    7487   3.96      47.14  0.00    0.00               0.00    0.00              
+com.apple.appkit.xpc.openAndSave   11231  4.23      50.68  0.00    0.00               0.00    0.00              
+com.apple.appkit.xpc.openAndSave   11060  4.15      52.96  0.00    0.00               0.98    0.00              
+locationd                          355    3.27      19.00  0.00    0.00               0.98    0.00              
+rapportd                           590    1.39      18.67  0.00    0.00               0.00    0.00              
+searchpartyd                       545    2.54      22.95  0.00    0.00               0.00    0.00              
+com.apple.AmbientDisplayAgent      1831   1.74      49.13  0.00    0.00               0.00    0.00              
+plugin-container                   33849  4.16      28.57  0.00    0.00               4.90    0.00              
+plugin-container                   51519  4.08      16.98  0.00    0.00               4.90    0.00              
+mysqld                             541    2.11      36.97  0.00    0.00               98.02   0.00              
+cpptools-srv2                      26391  0.11      11.53  0.00    0.00               3.92    0.00              
+gamepolicyd                        716    1.67      39.82  0.00    0.00               0.00    0.00              
+cpptools-srv                       64619  0.13      11.10  0.00    0.00               4.90    0.00              
+identityservicesd                  605    0.77      12.48  0.00    0.00               0.00    0.00              
+appstoreagent                      1334   1.20      3.61   0.00    0.00               0.00    0.00              
+powerd                             321    1.52      34.74  0.00    0.00               0.00    0.00              
+cpptools-srv                       31521  0.07      20.53  0.00    0.00               4.90    0.00              
+Firefox GPU Helper                 1299   1.47      59.57  0.00    0.00               10.78   0.00              
+cpptools-srv                       36497  0.17      12.18  0.00    0.00               5.88    0.00              
+FocusriteControlServer             540    1.50      24.55  0.00    0.00               25.49   0.00              
+plugin-container                   33790  2.93      24.76  0.00    0.00               2.94    0.00              
+corebrightnessd                    373    1.16      46.26  0.00    0.00               0.98    0.00              
+cpptools-srv                       99815  0.11      16.85  0.00    0.00               4.90    0.00              
+plugin-container                   49101  1.48      22.98  0.00    0.00               3.92    0.00              
+com.apple.DriverKit.AppleUserECM   93640  1.76      24.96  0.00    0.00               7.84    0.00              
+cpptools-srv2                      5638   0.07      15.16  0.00    0.00               2.94    0.00              
+callservicesd                      627    0.73      13.80  0.00    0.00               0.00    0.00              
+UniversalControl                   833    1.08      54.43  0.00    0.00               0.00    0.00              
+cpptools-srv2                      5636   0.05      14.06  0.00    0.00               2.94    0.00              
+revisiond                          366    1.39      42.63  0.00    0.00               0.98    0.00              
+syspolicyd                         462    0.62      29.52  0.00    0.00               4.90    0.00              
+cpptools-srv                       5738   0.05      22.03  0.00    0.00               2.94    0.00              
+Dock                               692    0.65      24.90  0.00    0.00               0.00    0.00              
+com.apple.AppleUserHIDDrivers      555    0.98      27.47  0.00    0.00               0.00    0.00              
+airportd                           391    1.27      32.75  0.00    0.00               0.00    0.00              
+photoanalysisd                     1212   0.46      9.65   0.00    0.00               0.98    0.00              
+cpptools-srv2                      27177  0.05      19.67  0.00    0.00               2.94    0.00              
+contextstored                      384    1.21      46.09  0.00    0.00               0.00    0.00              
+CursorUIViewService                787    0.90      15.54  0.00    0.00               0.98    0.00              
+Spotify Helper                     17987  0.57      26.88  0.00    0.00               0.00    0.00              
+LinearMouse                        1277   0.92      87.30  0.00    0.00               0.00    0.00              
+Cisco Secure Client                1282   0.70      49.68  0.00    0.00               8.82    0.00              
+thermalmonitord                    346    0.29      13.76  0.00    0.00               0.98    0.00              
+nesessionmanager                   356    0.29      44.46  0.00    0.00               0.00    0.00              
+audioclocksyncd                    513    0.79      41.21  0.00    0.00               0.00    0.00              
+PerfPowerServices                  59368  0.42      39.25  0.00    0.00               0.00    0.00              
+spotlightknowledged                1431   0.87      9.10   0.00    0.00               0.00    0.00              
+com.apple.WebKit.Networking        767    0.35      13.11  0.00    0.00               5.88    0.00              
+duetexpertd                        91819  0.35      38.92  0.00    0.00               0.00    0.00              
+csc_iseagentd                      1311   0.54      30.62  0.00    0.00               29.41   0.00              
+ViewBridgeAuxiliary                674    0.45      11.30  0.00    0.00               0.98    0.00              
+Spotify Helper                     17996  0.42      16.10  0.00    0.00               0.98    0.00              
+plugin-container                   1303   0.16      44.77  0.00    0.00               1.96    0.00              
+com.apple.WebKit.GPU               1510   0.55      3.21   0.00    0.00               0.98    0.00              
+wifip2pd                           643    0.48      12.39  0.00    0.00               0.00    0.00              
+replayd                            714    0.11      7.92   0.00    0.00               0.98    0.00              
+TextInputSwitcher                  1278   0.29      11.84  0.00    0.00               0.98    0.00              
+apsd                               349    0.28      17.47  0.00    0.00               4.90    0.00              
+nsurlsessiond                      615    0.36      14.04  0.00    0.00               0.98    0.00              
+PasswordBreachAgent                14477  0.25      17.90  0.00    0.00               4.90    0.00              
+lockoutagent                       662    0.09      38.06  0.00    0.00               0.98    0.00              
+com.apple.cmio.registerassistant   375    0.39      4.78   0.00    0.00               0.98    0.00              
+universalaccessd                   575    0.29      34.50  0.00    0.00               0.00    0.00              
+Preview                            11230  0.32      5.50   0.00    0.00               0.98    0.00              
+authd                              436    0.13      16.18  0.00    0.00               0.00    0.00              
+symptomsd                          437    0.10      28.40  0.00    0.00               0.00    0.00              
+ContinuityCaptureAgent             648    0.07      24.94  0.00    0.00               1.96    0.00              
+searchpartyuseragent               676    0.15      10.50  0.00    0.00               0.98    0.00              
+PAH_Extension                      789    0.12      13.84  0.00    0.00               0.98    0.00              
+securityd                          353    0.11      29.66  0.00    0.00               0.00    0.00              
+audioanalyticsd                    530    0.09      16.67  0.00    0.00               0.98    0.00              
+cameracaptured                     505    0.11      23.69  0.00    0.00               1.96    0.00              
+mDNSResponderHelper                494    0.04      24.21  0.00    0.00               0.98    0.00              
+com.apple.audio.Core-Audio-Drive   485    0.02      22.28  0.00    0.00               0.98    0.00              
+ALL_TASKS                          -2     3805.63   26.70  3377.33 8.82               12054.47 0.00              
+
+**** Processor usage ****
+
+E-Cluster Online: 100%
+E-Cluster HW active frequency: 1809 MHz
+E-Cluster HW active residency:  73.74% (1020 MHz:  28% 1404 MHz: 7.2% 1788 MHz: 3.9% 2112 MHz: 3.3% 2352 MHz: 2.1% 2532 MHz: 1.9% 2592 MHz:  27%)
+E-Cluster idle residency:  26.26%
+E-Cluster down residency:   0.00%
+CPU 0 frequency: 1897 MHz
+CPU 0 active residency:  49.02% (1020 MHz:  16% 1404 MHz: 4.0% 1788 MHz: 3.2% 2112 MHz: 2.3% 2352 MHz: 1.7% 2532 MHz: 1.5% 2592 MHz:  20%)
+CPU 0 idle residency:  50.98%
+CPU 0 down residency:   0.00%
+CPU 1 frequency: 1960 MHz
+CPU 1 active residency:  37.64% (1020 MHz:  11% 1404 MHz: 2.9% 1788 MHz: 2.5% 2112 MHz: 2.1% 2352 MHz: .97% 2532 MHz: 1.3% 2592 MHz:  17%)
+CPU 1 idle residency:  62.36%
+CPU 1 down residency:   0.00%
+CPU 2 frequency: 2031 MHz
+CPU 2 active residency:  28.07% (1020 MHz: 6.8% 1404 MHz: 2.2% 1788 MHz: 1.7% 2112 MHz: 1.7% 2352 MHz: .69% 2532 MHz: 1.1% 2592 MHz:  14%)
+CPU 2 idle residency:  71.93%
+CPU 2 down residency:   0.00%
+CPU 3 frequency: 2132 MHz
+CPU 3 active residency:  21.67% (1020 MHz: 4.1% 1404 MHz: 1.2% 1788 MHz: 1.5% 2112 MHz: 1.4% 2352 MHz: .53% 2532 MHz: .93% 2592 MHz:  12%)
+CPU 3 idle residency:  78.33%
+CPU 3 down residency:   0.00%
+
+P0-Cluster Online: 96%
+P0-Cluster HW active frequency: 3388 MHz
+P0-Cluster HW active residency:  78.72% (1260 MHz:  17% 1512 MHz: 2.5% 1800 MHz: 2.1% 2088 MHz: 2.4% 2352 MHz: .75% 2616 MHz: .93% 2868 MHz: .65% 3096 MHz: .24% 3300 MHz: .06% 3468 MHz: .02% 3624 MHz: .01% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:  11% 3996 MHz: .13% 4044 MHz: 3.2% 4104 MHz:   0% 4416 MHz: 8.0% 4512 MHz:  30%)
+P0-Cluster idle residency:  15.22%
+P0-Cluster down residency:   6.07%
+CPU 4 frequency: 4376 MHz
+CPU 4 active residency:  18.12% (1260 MHz: .28% 1512 MHz: .21% 1800 MHz: .07% 2088 MHz: .05% 2352 MHz: .08% 2616 MHz: .02% 2868 MHz: .19% 3096 MHz: .05% 3300 MHz:   0% 3468 MHz: .02% 3624 MHz: .01% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz:   0% 4416 MHz:   0% 4512 MHz:  17%)
+CPU 4 idle residency:  75.80%
+CPU 4 down residency:   6.08%
+CPU 5 frequency: 4412 MHz
+CPU 5 active residency:  25.54% (1260 MHz: .39% 1512 MHz: .14% 1800 MHz: .00% 2088 MHz: .01% 2352 MHz: .00% 2616 MHz: .27% 2868 MHz: .17% 3096 MHz: .05% 3300 MHz: .00% 3468 MHz: .00% 3624 MHz: .01% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz:   0% 4416 MHz:   0% 4512 MHz:  25%)
+CPU 5 idle residency:  68.38%
+CPU 5 down residency:   6.08%
+CPU 6 frequency: 4433 MHz
+CPU 6 active residency:  22.40% (1260 MHz: .37% 1512 MHz: .02% 1800 MHz: .01% 2088 MHz: .04% 2352 MHz: .01% 2616 MHz: .11% 2868 MHz: .06% 3096 MHz: .06% 3300 MHz:   0% 3468 MHz:   0% 3624 MHz:   0% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz:   0% 4416 MHz: .00% 4512 MHz:  22%)
+CPU 6 idle residency:  71.52%
+CPU 6 down residency:   6.08%
+CPU 7 frequency: 4444 MHz
+CPU 7 active residency:  16.40% (1260 MHz: .28% 1512 MHz: .02% 1800 MHz: .01% 2088 MHz: .01% 2352 MHz:   0% 2616 MHz: .01% 2868 MHz: .05% 3096 MHz: .00% 3300 MHz:   0% 3468 MHz: .00% 3624 MHz: .01% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz:   0% 4416 MHz: .01% 4512 MHz:  16%)
+CPU 7 idle residency:  77.52%
+CPU 7 down residency:   6.08%
+
+P1-Cluster HW active frequency: 4070 MHz
+P1-Cluster HW active residency:  99.96% (1260 MHz: 1.3% 1512 MHz: .21% 1800 MHz: .09% 2088 MHz: .13% 2352 MHz: .51% 2616 MHz: 3.6% 2868 MHz: .67% 3096 MHz: .07% 3300 MHz: .01% 3468 MHz: .00% 3624 MHz:   0% 3756 MHz: .00% 3852 MHz:   0% 3924 MHz:  47% 3996 MHz: .04% 4044 MHz: .03% 4104 MHz:   0% 4416 MHz:  19% 4512 MHz:  27%)
+P1-Cluster idle residency:   0.04%
+P1-Cluster down residency:   0.00%
+CPU 8 frequency: 4420 MHz
+CPU 8 active residency:  60.99% (1260 MHz: .01% 1512 MHz: .04% 1800 MHz: .01% 2088 MHz: .01% 2352 MHz: .16% 2616 MHz: 2.2% 2868 MHz: .46% 3096 MHz: .07% 3300 MHz: .01% 3468 MHz: .00% 3624 MHz:   0% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz: .00% 4044 MHz: .03% 4104 MHz:   0% 4416 MHz:   0% 4512 MHz:  58%)
+CPU 8 idle residency:  39.01%
+CPU 8 down residency:   0.00%
+CPU 9 frequency: 4437 MHz
+CPU 9 active residency:  58.26% (1260 MHz: .03% 1512 MHz: .06% 1800 MHz: .07% 2088 MHz: .01% 2352 MHz: .04% 2616 MHz: 1.8% 2868 MHz: .19% 3096 MHz: .07% 3300 MHz: .01% 3468 MHz: .00% 3624 MHz:   0% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz: .00% 4044 MHz: .01% 4104 MHz:   0% 4416 MHz:   0% 4512 MHz:  56%)
+CPU 9 idle residency:  41.74%
+CPU 9 down residency:   0.00%
+CPU 10 frequency: 4455 MHz
+CPU 10 active residency:  61.91% (1260 MHz: .05% 1512 MHz: .11% 1800 MHz: .01% 2088 MHz: .02% 2352 MHz: .18% 2616 MHz: 1.2% 2868 MHz: .17% 3096 MHz: .02% 3300 MHz: .01% 3468 MHz: .00% 3624 MHz:   0% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz: .00% 4044 MHz: .03% 4104 MHz:   0% 4416 MHz:   0% 4512 MHz:  60%)
+CPU 10 idle residency:  38.09%
+CPU 10 down residency:   0.00%
+CPU 11 frequency: 4422 MHz
+CPU 11 active residency:  61.24% (1260 MHz: .02% 1512 MHz: .13% 1800 MHz: .05% 2088 MHz: .01% 2352 MHz: .23% 2616 MHz: 2.0% 2868 MHz: .25% 3096 MHz: .07% 3300 MHz: .01% 3468 MHz: .00% 3624 MHz:   0% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz: .00% 4044 MHz: .02% 4104 MHz:   0% 4416 MHz:   0% 4512 MHz:  58%)
+CPU 11 idle residency:  38.76%
+CPU 11 down residency:   0.00%
+
+CPU Power: 8531 mW
+GPU Power: 144 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 8675 mW
+
+
+*** Sampled system activity (Thu Nov 19 16:06:53 2026 +0000) (1021.45ms elapsed) ***
+
+*** Running tasks ***
+
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)
+DEAD_TASKS                         -1     1950.20   79.94  0.00    0.00               4.90    0.00              
+OneDrive                           91960  834.45    76.74  0.00    0.00               12.73   0.00              
+simulator                          7523   808.99    28.40  0.00    0.00               0.00    0.00              
+kernel_task                        0      1002.37   0.00   3762.63 0.00               4480.49 0.00              
+top                                7562   926.27    14.06  0.00    0.00               0.00    0.00              
+sysmond                            832    76.17     27.17  2.94    0.00               2.94    0.00              
+Code Helper (Renderer)             809    16.48     46.76  0.00    0.00               38.19   0.00              
+powermetrics                       7531   17.96     5.23   0.00    0.00               0.98    0.00              
+fileproviderd                      687    86.01     62.74  0.98    0.00               7.83    0.00              
+Code Helper                        59640  7.44      47.90  6.86    0.00               112.62  0.00              
+Code Helper (Plugin)               26231  6.20      35.28  8.81    0.00               13.71   0.00              
+Code Helper (Plugin)               30151  7.06      9.24   4.90    0.00               4.90    0.00              
+coreduetd                          342    29.33     66.80  0.00    0.00               0.98    0.00              
+coreaudiod                         399    79.77     96.21  0.00    0.00               86.18   0.00              
+WindowServer                       378    19.05     36.21  2.94    0.00               49.95   0.00              
+Activity Monitor                   2421   23.95     85.85  0.00    0.00               1.96    0.00              
+OneDrive File Provider             6569   44.65     28.45  0.00    0.00               4.90    0.00              
+Code Helper                        844    3.52      22.40  0.98    0.00               1.96    0.00              
+plugin-container                   76418  20.98     53.93  0.00    0.00               2.94    0.00              
+grep                               7563   10.07     36.91  0.00    0.00               0.00    0.00              
+Spotify                            17981  36.35     45.42  10.77   1.96               55.82   0.00              
+Code Helper (Plugin)               5048   1.92      10.83  0.98    0.00               1.96    0.00              
+Code                               675    1.84      25.31  1.96    0.00               4.90    0.00              
+Code Helper                        839    2.31      23.08  10.77   0.00               22.52   0.00              
+firefox                            1225   24.56     26.70  0.00    0.00               5.88    0.00              
+sleep                              7564   7.29      43.22  0.00    0.00               0.00    0.00              
+opendirectoryd                     347    7.48      25.97  0.00    0.00               0.00    0.00              
+corespotlightd                     759    12.61     50.69  0.00    0.00               0.00    0.00              
+suggestd                           706    14.40     56.88  0.00    0.00               1.96    0.00              
+Code Helper                        803    1.38      34.09  0.00    0.00               1.96    0.00              
+Code Helper                        26230  1.81      20.64  0.98    0.00               1.96    0.00              
+mDNSResponder                      460    15.65     55.51  51.91   0.00               69.53   0.00              
+fseventsd                          312    9.87      18.81  5.88    0.98               22.52   0.00              
+zsh                                7526   0.93      11.09  0.00    0.00               0.00    0.00              
+plugin-container                   33849  8.19      26.38  0.00    0.00               5.88    0.00              
+com.cisco.anyconnect.macos.acsoc   552    13.07     43.59  0.00    0.00               0.00    0.00              
+launchd                            1      3.70      30.41  0.00    0.00               0.00    0.00              
+Code Helper (Plugin)               5370   0.76      16.60  2.94    0.00               5.88    0.00              
+plugin-container                   51485  7.24      15.62  0.00    0.00               4.90    0.00              
+cpptools                           26320  0.76      16.46  0.00    0.00               11.75   0.00              
+Code Helper (Plugin)               26356  0.62      9.34   0.98    0.00               1.96    0.00              
+logd                               308    6.50      25.61  0.00    0.00               0.00    0.00              
+mds                                336    5.24      35.07  0.00    0.00               7.83    0.00              
+filecoordinationd                  700    5.82      61.39  0.00    0.00               0.98    0.00              
+mds_stores                         566    4.60      46.34  0.00    0.00               0.00    0.00              
+notifyd                            371    1.78      46.14  0.00    0.00               0.00    0.00              
+plugin-container                   16308  8.38      12.57  0.00    0.00               2.94    0.00              
+plugin-container                   9238   4.56      27.07  0.00    0.00               4.90    0.00              
+runningboardd                      382    5.32      57.07  0.00    0.00               0.98    0.00              
+spotlightknowledged                1343   3.97      21.70  0.00    0.00               0.00    0.00              
+com.apple.DriverKit-AppleBCMWLAN   553    8.36      58.22  0.00    0.00               166.49  0.00              
+cpptools                           5618   0.35      33.47  0.00    0.00               12.73   0.00              
+plugin-container                   51496  3.06      19.27  0.00    0.00               2.94    0.00              
+Code Helper                        5047   0.32      28.89  0.00    0.00               0.00    0.00              
+bluetoothd                         370    8.36      43.74  0.00    0.00               0.98    0.00              
+biomed                             406    2.09      63.02  0.00    0.00               0.00    0.00              
+Finder                             696    2.22      36.67  0.00    0.00               0.98    0.00              
+com.apple.appkit.xpc.openAndSave   11231  1.73      39.22  0.00    0.00               0.98    0.00              
+com.apple.appkit.xpc.openAndSave   11060  1.53      44.82  0.00    0.00               0.00    0.00              
+NordVPN                            594    2.96      29.75  0.00    0.00               54.84   0.00              
+Spotify Helper                     17986  2.26      10.47  0.00    0.00               1.96    0.00              
+plugin-container                   51519  3.67      23.00  0.00    0.00               1.96    0.00              
+symptomsd                          437    1.81      24.77  0.00    0.00               0.00    0.00              
+launchservicesd                    350    2.08      19.12  0.00    0.00               0.00    0.00              
+searchpartyuseragent               676    3.28      7.25   0.00    0.00               0.00    0.00              
+plugin-container                   1303   1.80      5.15   0.00    0.00               1.96    0.00              
+plugin-container                   33790  3.89      21.36  0.00    0.00               3.92    0.00              
+plugin-container                   25945  3.41      25.20  0.00    0.00               1.96    0.00              
+plugin-container                   49101  1.35      7.17   0.00    0.00               1.96    0.00              
+heard                              1253   2.58      5.63   0.00    0.00               0.00    0.00              
+UserEventAgent                     569    1.59      69.14  0.00    0.00               0.00    0.00              
+mysqld                             541    2.15      35.82  0.00    0.00               96.95   0.00              
+com.apple.AmbientDisplayAgent      1831   2.60      44.21  0.00    0.00               0.00    0.00              
+audioaccessoryd                    600    1.94      4.03   0.00    0.00               0.00    0.00              
+airportd                           391    0.87      17.33  0.00    0.00               2.94    0.00              
+Firefox GPU Helper                 1299   1.51      54.44  0.00    0.00               9.79    0.00              
+AirPlayXPCHelper                   374    1.75      4.25   0.00    0.00               0.00    0.00              
+searchpartyd                       545    2.38      36.52  0.00    0.00               0.00    0.00              
+wifivelocityd                      1499   1.95      7.15   0.00    0.00               0.00    0.00              
+FocusriteControlServer             540    1.37      24.54  0.00    0.00               24.48   0.00              
+revisiond                          366    0.66      20.58  0.00    0.00               0.00    0.00              
+Spotify Helper                     17987  1.45      13.38  0.00    0.00               0.00    0.00              
+com.apple.DriverKit.AppleUserECM   93640  1.47      27.25  0.00    0.00               7.83    0.00              
+tipsd                              1626   1.58      6.52   0.00    0.00               0.00    0.00              
+locationd                          355    2.02      42.92  0.00    0.00               0.98    0.00              
+sharingd                           614    2.13      28.28  0.00    0.00               0.98    0.00              
+studentd                           1224   0.83      8.47   0.00    0.00               0.98    0.00              
+cpptools-srv                       36497  0.09      24.75  0.00    0.00               4.90    0.00              
+corebrightnessd                    373    1.59      42.10  0.00    0.00               0.98    0.00              
+amsengagementd                     795    0.58      11.55  0.00    0.00               0.98    0.00              
+syspolicyd                         462    0.63      34.19  0.00    0.00               4.90    0.00              
+cpptools-srv                       64619  0.06      22.50  0.00    0.00               4.90    0.00              
+cpptools-srv                       31521  0.07      25.48  0.00    0.00               4.90    0.00              
+cpptools-srv                       99815  0.07      25.09  0.00    0.00               4.90    0.00              
+PerfPowerServices                  59368  1.16      22.47  0.00    0.00               0.00    0.00              
+cpptools-srv                       5738   0.04      26.30  0.00    0.00               2.94    0.00              
+cpptools-srv2                      27177  0.04      22.64  0.00    0.00               2.94    0.00              
+cpptools-srv2                      26391  0.04      26.45  0.00    0.00               2.94    0.00              
+nearbyd                            733    1.04      40.57  0.00    0.00               0.00    0.00              
+Cisco Secure Client                1282   0.74      55.20  0.00    0.00               8.81    0.00              
+cpptools-srv2                      5636   0.04      24.49  0.00    0.00               2.94    0.00              
+cpptools-srv2                      5638   0.05      17.91  0.00    0.00               2.94    0.00              
+cfprefsd                           380    0.63      8.17   0.00    0.00               0.00    0.00              
+gamepolicyd                        716    0.40      14.84  0.00    0.00               2.94    0.00              
+cfprefsd                           564    0.71      8.55   0.00    0.00               0.00    0.00              
+audioclocksyncd                    513    0.72      44.74  0.00    0.00               0.00    0.00              
+gamecontrollerd                    570    0.35      13.33  0.00    0.00               0.98    0.00              
+idleassetsd                        712    0.73      10.96  0.00    0.00               0.98    0.00              
+csc_iseagentd                      1311   0.51      30.05  0.00    0.00               27.42   0.00              
+netbiosd                           93653  0.17      11.15  0.00    0.00               0.98    0.00              
+lockoutagent                       662    0.60      12.35  0.00    0.00               0.98    0.00              
+com.apple.WebKit.Networking        767    0.49      15.82  0.00    0.00               5.88    0.00              
+duetexpertd                        91819  0.54      31.55  0.00    0.00               0.00    0.00              
+iconservicesagent                  656    0.15      4.63   0.00    0.00               0.98    0.00              
+Spotlight                          752    0.24      4.10   0.00    0.00               0.98    0.00              
+ContinuityCaptureAgent             648    0.27      7.59   0.00    0.00               1.96    0.00              
+Microsoft Word                     10979  0.58      5.31   0.00    0.00               0.98    0.00              
+thermalmonitord                    346    0.15      32.92  0.00    0.00               0.98    0.00              
+AlDente                            691    0.16      30.70  0.00    0.00               0.98    0.00              
+securityd                          353    0.35      12.42  0.00    0.00               0.00    0.00              
+ControlCenter                      694    0.21      6.10   0.00    0.00               0.98    0.00              
+identityservicesd                  605    0.24      19.91  0.00    0.00               0.98    0.00              
+authd                              436    0.33      8.73   0.00    0.00               0.00    0.00              
+mediaanalysisd                     581    0.11      7.27   0.00    0.00               0.98    0.00              
+systemstatusd                      408    0.22      11.54  0.00    0.00               0.98    0.00              
+apsd                               349    0.25      19.28  0.00    0.00               4.90    0.00              
+PasswordBreachAgent                14477  0.23      18.93  0.00    0.00               4.90    0.00              
+avconferenced                      791    0.10      7.86   0.00    0.00               0.98    0.00              
+cameracaptured                     505    0.35      10.23  0.00    0.00               1.96    0.00              
+remindd                            93780  0.30      9.11   0.00    0.00               0.98    0.00              
+WeatherMenu                        1268   0.18      6.96   0.00    0.00               0.98    0.00              
+contextstored                      384    0.20      8.82   0.00    0.00               0.98    0.00              
+mDNSResponderHelper                494    0.16      10.12  0.00    0.00               0.98    0.00              
+plugin-container                   2661   0.05      19.86  0.00    0.00               0.98    0.00              
+com.apple.audio.Core-Audio-Drive   485    0.06      10.40  0.00    0.00               0.98    0.00              
+ALL_TASKS                          -2     5495.84   50.89  3876.85 2.94               5581.29 0.00              
+
+**** Processor usage ****
+
+E-Cluster Online: 100%
+E-Cluster HW active frequency: 1740 MHz
+E-Cluster HW active residency:  71.35% (1020 MHz:  31% 1404 MHz: 4.6% 1788 MHz: 4.7% 2112 MHz: 3.2% 2352 MHz: 1.5% 2532 MHz: 3.1% 2592 MHz:  23%)
+E-Cluster idle residency:  28.65%
+E-Cluster down residency:   0.00%
+CPU 0 frequency: 1832 MHz
+CPU 0 active residency:  38.31% (1020 MHz:  14% 1404 MHz: 2.8% 1788 MHz: 2.8% 2112 MHz: 1.7% 2352 MHz: .94% 2532 MHz: 2.0% 2592 MHz:  14%)
+CPU 0 idle residency:  61.69%
+CPU 0 down residency:   0.00%
+CPU 1 frequency: 1965 MHz
+CPU 1 active residency:  29.73% (1020 MHz: 8.6% 1404 MHz: 2.2% 1788 MHz: 2.0% 2112 MHz: 1.3% 2352 MHz: .55% 2532 MHz: 1.9% 2592 MHz:  13%)
+CPU 1 idle residency:  70.27%
+CPU 1 down residency:   0.00%
+CPU 2 frequency: 2063 MHz
+CPU 2 active residency:  19.65% (1020 MHz: 4.3% 1404 MHz: 1.6% 1788 MHz: 1.5% 2112 MHz: .88% 2352 MHz: .19% 2532 MHz: 1.6% 2592 MHz: 9.6%)
+CPU 2 idle residency:  80.35%
+CPU 2 down residency:   0.00%
+CPU 3 frequency: 2080 MHz
+CPU 3 active residency:  14.96% (1020 MHz: 2.5% 1404 MHz: 1.7% 1788 MHz: 1.5% 2112 MHz: .87% 2352 MHz: .05% 2532 MHz: 1.4% 2592 MHz: 7.0%)
+CPU 3 idle residency:  85.04%
+CPU 3 down residency:   0.00%
+
+P0-Cluster Online: 100%
+P0-Cluster HW active frequency: 3607 MHz
+P0-Cluster HW active residency:  91.39% (1260 MHz: 8.7% 1512 MHz: 1.4% 1800 MHz: 2.4% 2088 MHz: 6.3% 2352 MHz: 3.8% 2616 MHz: .94% 2868 MHz: .84% 3096 MHz: .87% 3300 MHz:   0% 3468 MHz: .93% 3624 MHz: .57% 3756 MHz: .32% 3852 MHz:   0% 3924 MHz:  19% 3996 MHz: .46% 4044 MHz: 2.0% 4104 MHz: .54% 4416 MHz:  13% 4512 MHz:  29%)
+P0-Cluster idle residency:   8.61%
+P0-Cluster down residency:   0.00%
+CPU 4 frequency: 4271 MHz
+CPU 4 active residency:  31.81% (1260 MHz: .06% 1512 MHz: .02% 1800 MHz: .58% 2088 MHz: 1.5% 2352 MHz: .79% 2616 MHz: .07% 2868 MHz: .00% 3096 MHz: .00% 3300 MHz:   0% 3468 MHz: .12% 3624 MHz: .14% 3756 MHz: .00% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz: .00% 4416 MHz: .01% 4512 MHz:  28%)
+CPU 4 idle residency:  68.19%
+CPU 4 down residency:   0.00%
+CPU 5 frequency: 4491 MHz
+CPU 5 active residency:  27.44% (1260 MHz: .01% 1512 MHz: .00% 1800 MHz:   0% 2088 MHz: .10% 2352 MHz: .12% 2616 MHz: .00% 2868 MHz:   0% 3096 MHz:   0% 3300 MHz:   0% 3468 MHz: .00% 3624 MHz: .04% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz:   0% 4416 MHz:   0% 4512 MHz:  27%)
+CPU 5 idle residency:  72.56%
+CPU 5 down residency:   0.00%
+CPU 6 frequency: 4356 MHz
+CPU 6 active residency:  33.25% (1260 MHz: .05% 1512 MHz: .02% 1800 MHz: .04% 2088 MHz: .90% 2352 MHz: .66% 2616 MHz: .15% 2868 MHz: .01% 3096 MHz: .13% 3300 MHz:   0% 3468 MHz: .46% 3624 MHz: .31% 3756 MHz: .01% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz: .00% 4416 MHz: .01% 4512 MHz:  30%)
+CPU 6 idle residency:  66.75%
+CPU 6 down residency:   0.00%
+CPU 7 frequency: 4488 MHz
+CPU 7 active residency:  23.86% (1260 MHz: .01% 1512 MHz:   0% 1800 MHz: .05% 2088 MHz: .15% 2352 MHz: .00% 2616 MHz: .01% 2868 MHz: .01% 3096 MHz:   0% 3300 MHz:   0% 3468 MHz: .00% 3624 MHz:   0% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz:   0% 4416 MHz:   0% 4512 MHz:  24%)
+CPU 7 idle residency:  76.14%
+CPU 7 down residency:   0.00%
+
+P1-Cluster HW active frequency: 4004 MHz
+P1-Cluster HW active residency:  97.04% (1260 MHz: 6.8% 1512 MHz: .43% 1800 MHz: .11% 2088 MHz: .99% 2352 MHz: .58% 2616 MHz:   0% 2868 MHz:   0% 3096 MHz:   0% 3300 MHz:   0% 3468 MHz: .52% 3624 MHz: .29% 3756 MHz: .19% 3852 MHz:   0% 3924 MHz:  28% 3996 MHz: 1.4% 4044 MHz: 1.8% 4104 MHz: .10% 4416 MHz:  28% 4512 MHz:  27%)
+P1-Cluster idle residency:   2.96%
+P1-Cluster down residency:   0.00%
+CPU 8 frequency: 4450 MHz
+CPU 8 active residency:  47.06% (1260 MHz: .06% 1512 MHz: .07% 1800 MHz: .01% 2088 MHz: .54% 2352 MHz: .37% 2616 MHz:   0% 2868 MHz:   0% 3096 MHz:   0% 3300 MHz:   0% 3468 MHz: .15% 3624 MHz: .03% 3756 MHz: .11% 3852 MHz:   0% 3924 MHz: .07% 3996 MHz:   0% 4044 MHz: .04% 4104 MHz: .01% 4416 MHz: .41% 4512 MHz:  45%)
+CPU 8 idle residency:  52.94%
+CPU 8 down residency:   0.00%
+CPU 9 frequency: 4470 MHz
+CPU 9 active residency:  44.54% (1260 MHz: .05% 1512 MHz: .06% 1800 MHz: .03% 2088 MHz: .44% 2352 MHz: .16% 2616 MHz:   0% 2868 MHz:   0% 3096 MHz:   0% 3300 MHz:   0% 3468 MHz: .04% 3624 MHz: .00% 3756 MHz: .00% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz: .00% 4104 MHz:   0% 4416 MHz: .02% 4512 MHz:  44%)
+CPU 9 idle residency:  55.46%
+CPU 9 down residency:   0.00%
+CPU 10 frequency: 4483 MHz
+CPU 10 active residency:  41.96% (1260 MHz: .02% 1512 MHz: .06% 1800 MHz: .04% 2088 MHz: .32% 2352 MHz: .04% 2616 MHz:   0% 2868 MHz:   0% 3096 MHz:   0% 3300 MHz:   0% 3468 MHz: .00% 3624 MHz: .01% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz:   0% 4416 MHz: .00% 4512 MHz:  41%)
+CPU 10 idle residency:  58.04%
+CPU 10 down residency:   0.00%
+CPU 11 frequency: 4451 MHz
+CPU 11 active residency:  44.88% (1260 MHz: .10% 1512 MHz: .16% 1800 MHz: .06% 2088 MHz: .49% 2352 MHz: .10% 2616 MHz:   0% 2868 MHz:   0% 3096 MHz:   0% 3300 MHz:   0% 3468 MHz: .18% 3624 MHz: .12% 3756 MHz: .02% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz: .10% 4104 MHz: .00% 4416 MHz: .35% 4512 MHz:  43%)
+CPU 11 idle residency:  55.12%
+CPU 11 down residency:   0.00%
+
+CPU Power: 9905 mW
+GPU Power: 11 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 9915 mW
+
+
+*** Sampled system activity (Thu Nov 19 16:06:54 2026 +0000) (1019.94ms elapsed) ***
+
+*** Running tasks ***
+
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)
+OneDrive                           91960  1056.89   80.22  0.00    0.00               11.77   0.00              
+simulator                          7523   820.92    26.93  25.49   0.00               25.49   0.00              
+DEAD_TASKS                         -1     657.28    33.91  0.00    0.00               37.26   0.98              
+kernel_task                        0      998.53    0.00   6158.08 0.00               7087.53 0.00              
+top                                7568   974.27    14.00  0.00    0.00               0.00    0.00              
+Code Helper                        59640  54.17     45.63  8.82    0.00               232.36  0.00              
+WindowServer                       378    83.33     34.88  81.38   0.00               256.87  0.00              
+Code Helper (Renderer)             809    36.55     64.11  1.96    2.94               20.59   0.00              
+powermetrics                       7531   17.77     5.37   0.00    0.00               0.98    0.00              
+sysmond                            832    13.34     22.60  0.00    0.00               0.00    0.00              
+fileproviderd                      687    63.05     60.58  0.00    0.00               5.88    0.00              
+coreduetd                          342    39.09     72.51  0.00    0.00               0.00    0.00              
+Code Helper (Plugin)               26231  5.50      15.46  2.94    0.00               6.86    0.00              
+Code Helper                        839    4.90      26.42  10.78   0.00               21.57   0.00              
+coreaudiod                         399    80.35     96.96  0.00    0.00               86.28   0.00              
+grep                               7569   10.65     35.23  0.00    0.00               0.00    0.00              
+plugin-container                   51496  19.94     42.70  0.00    0.00               3.92    0.00              
+Code                               675    2.47      32.16  0.00    0.00               0.98    0.00              
+Code Helper (Plugin)               30151  1.66      32.71  4.90    0.00               4.90    0.00              
+Spotify                            17981  29.62     45.18  17.65   0.00               66.67   0.00              
+firefox                            1225   41.24     40.76  0.00    0.00               6.86    0.00              
+sleep                              7570   6.86      46.77  0.00    0.00               0.00    0.00              
+suggestd                           706    13.94     73.56  0.00    0.00               0.98    0.00              
+launchd                            1      6.32      29.41  0.00    0.00               0.00    0.00              
+Code Helper                        26230  1.56      26.23  1.96    0.00               3.92    0.00              
+Code Helper                        5047   1.58      14.94  0.98    0.00               2.94    0.00              
+zsh                                7526   0.85      11.27  0.98    0.00               0.98    0.00              
+plugin-container                   76418  21.83     49.56  0.00    0.00               7.84    0.00              
+corespotlightd                     759    11.33     63.11  0.00    0.00               0.00    0.00              
+opendirectoryd                     347    7.50      30.30  0.00    0.00               0.00    0.00              
+fseventsd                          312    11.42     18.83  2.94    0.98               22.55   0.00              
+Code Helper (Plugin)               5048   1.25      7.63   0.00    0.00               0.98    0.00              
+OneDrive File Provider             6569   9.01      59.19  0.00    0.00               4.90    0.00              
+notifyd                            371    2.89      51.42  0.00    0.00               0.00    0.00              
+runningboardd                      382    12.65     61.69  0.00    0.00               2.94    0.00              
+Code Helper                        844    0.84      13.33  0.00    0.00               0.98    0.00              
+plugin-container                   51519  11.60     12.09  0.00    0.00               5.88    0.00              
+plugin-container                   16308  9.65      14.76  0.00    0.00               4.90    0.00              
+mds                                336    9.97      35.80  0.00    0.00               10.78   0.00              
+plugin-container                   33849  8.47      34.69  0.00    0.00               6.86    0.00              
+logd                               308    6.64      36.56  0.98    0.00               1.96    0.00              
+filecoordinationd                  700    5.62      66.50  0.00    0.00               0.98    0.00              
+mds_stores                         566    8.22      41.98  0.00    0.00               0.00    0.00              
+plugin-container                   51485  5.75      23.36  0.00    0.00               3.92    0.00              
+com.apple.DriverKit-AppleBCMWLAN   553    10.66     52.72  0.00    0.00               170.59  0.00              
+plugin-container                   2661   5.95      27.50  0.00    0.00               0.98    0.00              
+airportd                           391    3.91      36.52  0.00    0.00               1.96    0.00              
+Code Helper                        803    0.45      14.09  0.00    0.00               0.98    0.00              
+spotlightknowledged                1343   3.72      36.61  0.00    0.00               0.00    0.00              
+AlDente                            691    11.16     39.47  0.00    0.00               1.96    0.00              
+cpptools                           26320  0.41      23.18  0.00    0.00               11.77   0.00              
+Code Helper (Plugin)               26340  0.23      14.89  0.98    0.00               1.96    0.00              
+com.cisco.anyconnect.macos.acsoc   552    4.12      41.34  0.00    0.00               0.00    0.00              
+Code Helper (Plugin)               5187   0.47      8.91   0.98    0.00               1.96    0.00              
+cpptools                           5618   0.47      20.81  0.00    0.00               11.77   0.00              
+mDNSResponder                      460    5.96      59.14  24.51   0.00               40.20   0.00              
+biomed                             406    3.02      65.62  0.00    0.00               0.00    0.00              
+plugin-container                   33790  5.39      22.17  0.00    0.00               5.88    0.00              
+plugin-container                   1303   4.68      22.25  0.00    0.00               1.96    0.00              
+plugin-container                   25945  3.98      27.57  0.00    0.00               3.92    0.00              
+Spotify Helper (Renderer)          17992  6.75      12.67  0.00    0.00               0.98    0.00              
+bluetoothd                         370    1.96      41.45  0.00    0.00               0.00    0.00              
+rapportd                           590    2.65      19.72  0.00    0.00               0.00    0.00              
+Finder                             696    1.97      46.93  0.00    0.00               0.98    0.00              
+plugin-container                   26746  5.30      10.99  0.00    0.00               2.94    0.00              
+gamepolicyd                        716    2.07      34.54  0.00    0.00               0.00    0.00              
+mdworker_shared                    7486   4.81      46.43  0.00    0.00               0.00    0.00              
+com.apple.appkit.xpc.openAndSave   11060  1.42      65.43  0.00    0.00               0.98    0.00              
+com.apple.appkit.xpc.openAndSave   11231  1.28      69.10  0.00    0.00               0.98    0.00              
+Spotify Helper                     17987  3.53      26.08  0.00    0.00               0.00    0.00              
+com.apple.AmbientDisplayAgent      1831   2.42      51.49  0.00    0.00               0.00    0.00              
+UserEventAgent                     569    1.75      47.20  0.00    0.00               0.00    0.00              
+nesessionmanager                   356    1.41      11.18  0.00    0.00               0.00    0.00              
+callservicesd                      627    1.34      12.65  0.00    0.00               0.00    0.00              
+audioclocksyncd                    513    2.40      21.01  0.00    0.00               0.98    0.00              
+symptomsd                          437    0.94      36.26  0.00    0.00               0.00    0.00              
+Activity Monitor                   2421   2.38      80.28  0.00    0.00               3.92    0.00              
+com.apphousekitchen.aldente-pro.   724    2.99      30.57  0.00    0.00               0.00    0.00              
+revisiond                          366    1.12      47.21  0.00    0.00               1.96    0.00              
+nearbyd                            733    0.67      35.29  0.00    0.00               0.98    0.00              
+NordVPN                            594    2.01      46.89  0.00    0.00               55.88   0.00              
+mysqld                             541    1.86      40.27  0.00    0.00               100.00  0.00              
+identityservicesd                  605    0.83      22.53  0.00    0.00               0.00    0.00              
+syspolicyd                         462    0.90      19.94  0.00    0.00               4.90    0.00              
+FocusriteControlServer             540    1.48      24.61  0.00    0.00               26.47   0.00              
+cpptools-srv                       99815  0.08      15.88  0.00    0.00               4.90    0.00              
+Firefox GPU Helper                 1299   1.50      56.12  0.00    0.00               10.78   0.00              
+corebrightnessd                    373    1.57      48.57  0.00    0.00               0.98    0.00              
+plugin-container                   9238   1.80      44.90  0.00    0.00               1.96    0.00              
+com.apple.DriverKit.AppleUserECM   93640  1.54      27.14  0.00    0.00               7.84    0.00              
+contextstored                      384    1.61      14.66  0.00    0.00               0.00    0.00              
+powerd                             321    1.71      20.08  0.00    0.00               0.00    0.00              
+locationd                          355    0.69      36.86  0.00    0.00               2.94    0.00              
+coreservicesd                      385    0.44      11.82  0.00    0.00               0.00    0.00              
+cpptools-srv2                      26391  0.06      13.66  0.00    0.00               2.94    0.00              
+com.apple.geod                     526    1.89      16.07  0.00    0.00               0.98    0.00              
+cpptools-srv2                      27177  0.05      12.98  0.00    0.00               2.94    0.00              
+com.apple.geod                     514    1.61      20.18  0.00    0.00               0.98    0.00              
+sharingd                           614    0.35      55.84  0.00    0.00               0.00    0.00              
+cpptools-srv                       31521  0.04      29.89  0.00    0.00               4.90    0.00              
+distnoted                          563    0.62      17.25  0.00    0.00               0.00    0.00              
+cpptools-srv                       5738   0.05      16.54  0.00    0.00               2.94    0.00              
+cpptools-srv                       36497  0.05      26.10  0.00    0.00               4.90    0.00              
+cpptools-srv                       64619  0.05      30.73  0.00    0.00               4.90    0.00              
+Cisco Secure Client                1282   0.61      52.44  0.00    0.00               8.82    0.00              
+plugin-container                   49101  0.29      29.09  0.00    0.00               1.96    0.00              
+cpptools-srv2                      5636   0.03      26.89  0.00    0.00               2.94    0.00              
+csc_iseagentd                      1311   0.53      27.90  0.00    0.00               27.45   0.00              
+cfprefsd                           380    0.28      13.62  0.00    0.00               0.00    0.00              
+cpptools-srv2                      5638   0.04      26.03  0.00    0.00               2.94    0.00              
+PerfPowerServices                  59368  0.47      43.14  0.00    0.00               0.00    0.00              
+lockoutagent                       662    0.15      28.52  0.00    0.00               0.98    0.00              
+duetexpertd                        91819  0.38      44.51  0.00    0.00               0.00    0.00              
+com.apple.WebKit.Networking        767    0.36      21.00  0.00    0.00               6.86    0.00              
+gamecontrolleragentd               1168   0.55      14.31  0.00    0.00               0.98    0.00              
+cfprefsd                           564    0.26      18.97  0.00    0.00               0.00    0.00              
+PasswordBreachAgent                14477  0.20      20.07  0.00    0.00               4.90    0.00              
+imagent                            689    0.13      9.44   0.00    0.00               0.98    0.00              
+wifip2pd                           643    0.18      8.06   0.00    0.00               0.98    0.00              
+apsd                               349    0.19      21.06  0.00    0.00               4.90    0.00              
+ContinuityCaptureAgent             648    0.10      19.20  0.00    0.00               1.96    0.00              
+loginwindow                        381    0.13      7.26   0.00    0.00               0.98    0.00              
+thermalmonitord                    346    0.09      42.55  0.00    0.00               0.98    0.00              
+com.apple.geod                     13017  0.07      9.86   0.00    0.00               0.98    0.00              
+NotificationCenter                 626    0.17      7.60   0.00    0.00               0.98    0.00              
+QuickLookUIService                 704    0.21      7.49   0.00    0.00               0.98    0.00              
+cameracaptured                     505    0.20      15.13  0.00    0.00               1.96    0.00              
+com.apple.WebKit.GPU               9056   0.17      7.77   0.00    0.00               0.98    0.00              
+com.apple.audio.Core-Audio-Drive   485    0.03      19.67  0.00    0.00               0.98    0.00              
+mDNSResponderHelper                494    0.03      36.94  0.00    0.00               0.98    0.00              
+ALL_TASKS                          -2     4486.85   37.93  6346.43 3.92               8550.48 0.98              
+
+**** Processor usage ****
+
+E-Cluster Online: 100%
+E-Cluster HW active frequency: 1721 MHz
+E-Cluster HW active residency:  70.84% (1020 MHz:  32% 1404 MHz: 5.0% 1788 MHz: 3.9% 2112 MHz: 3.4% 2352 MHz: 3.8% 2532 MHz: 5.0% 2592 MHz:  18%)
+E-Cluster idle residency:  29.16%
+E-Cluster down residency:   0.00%
+CPU 0 frequency: 1792 MHz
+CPU 0 active residency:  40.42% (1020 MHz:  16% 1404 MHz: 3.0% 1788 MHz: 2.6% 2112 MHz: 2.2% 2352 MHz: 3.0% 2532 MHz: 3.5% 2592 MHz:  10%)
+CPU 0 idle residency:  59.58%
+CPU 0 down residency:   0.00%
+CPU 1 frequency: 1833 MHz
+CPU 1 active residency:  24.92% (1020 MHz: 8.7% 1404 MHz: 1.8% 1788 MHz: 1.9% 2112 MHz: 1.7% 2352 MHz: 2.4% 2532 MHz: 2.0% 2592 MHz: 6.3%)
+CPU 1 idle residency:  75.08%
+CPU 1 down residency:   0.00%
+CPU 2 frequency: 1941 MHz
+CPU 2 active residency:  16.56% (1020 MHz: 4.4% 1404 MHz: 1.3% 1788 MHz: 1.5% 2112 MHz: 1.3% 2352 MHz: 2.0% 2532 MHz: 1.6% 2592 MHz: 4.6%)
+CPU 2 idle residency:  83.44%
+CPU 2 down residency:   0.00%
+CPU 3 frequency: 2000 MHz
+CPU 3 active residency:  12.95% (1020 MHz: 3.0% 1404 MHz: .63% 1788 MHz: 1.3% 2112 MHz: 1.4% 2352 MHz: 1.7% 2532 MHz: 1.4% 2592 MHz: 3.6%)
+CPU 3 idle residency:  87.05%
+CPU 3 down residency:   0.00%
+
+P0-Cluster Online: 100%
+P0-Cluster HW active frequency: 4131 MHz
+P0-Cluster HW active residency: 100.00% (1260 MHz: .06% 1512 MHz: .21% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz: .03% 2616 MHz: .00% 2868 MHz: .43% 3096 MHz:   0% 3300 MHz: .02% 3468 MHz: .04% 3624 MHz: .03% 3756 MHz: .23% 3852 MHz:   0% 3924 MHz:  55% 3996 MHz: 1.3% 4044 MHz: .11% 4104 MHz:   0% 4416 MHz:  31% 4512 MHz:  11%)
+P0-Cluster idle residency:   0.00%
+P0-Cluster down residency:   0.00%
+CPU 4 frequency: 4504 MHz
+CPU 4 active residency:  68.46% (1260 MHz: .01% 1512 MHz: .01% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz: .01% 2616 MHz: .00% 2868 MHz: .27% 3096 MHz:   0% 3300 MHz: .00% 3468 MHz: .01% 3624 MHz: .03% 3756 MHz: .02% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz: .02% 4044 MHz:   0% 4104 MHz:   0% 4416 MHz: .00% 4512 MHz:  68%)
+CPU 4 idle residency:  31.54%
+CPU 4 down residency:   0.00%
+CPU 5 frequency: 4502 MHz
+CPU 5 active residency:  66.51% (1260 MHz: .01% 1512 MHz: .01% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz: .03% 2616 MHz: .00% 2868 MHz: .27% 3096 MHz:   0% 3300 MHz: .00% 3468 MHz: .02% 3624 MHz: .00% 3756 MHz: .06% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz: .02% 4044 MHz:   0% 4104 MHz:   0% 4416 MHz: .00% 4512 MHz:  66%)
+CPU 5 idle residency:  33.49%
+CPU 5 down residency:   0.00%
+CPU 6 frequency: 4502 MHz
+CPU 6 active residency:  66.42% (1260 MHz: .00% 1512 MHz: .07% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz: .02% 2616 MHz: .00% 2868 MHz: .06% 3096 MHz:   0% 3300 MHz: .00% 3468 MHz: .04% 3624 MHz: .02% 3756 MHz: .23% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz: .16% 4044 MHz:   0% 4104 MHz:   0% 4416 MHz: .00% 4512 MHz:  66%)
+CPU 6 idle residency:  33.58%
+CPU 6 down residency:   0.00%
+CPU 7 frequency: 4508 MHz
+CPU 7 active residency:  65.91% (1260 MHz:   0% 1512 MHz: .01% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz: .02% 2616 MHz: .01% 2868 MHz: .06% 3096 MHz:   0% 3300 MHz: .02% 3468 MHz: .01% 3624 MHz: .01% 3756 MHz: .07% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz: .01% 4044 MHz:   0% 4104 MHz:   0% 4416 MHz: .00% 4512 MHz:  66%)
+CPU 7 idle residency:  34.09%
+CPU 7 down residency:   0.00%
+
+P1-Cluster HW active frequency: 3770 MHz
+P1-Cluster HW active residency:  94.26% (1260 MHz:  17% 1512 MHz: .09% 1800 MHz:   0% 2088 MHz: .01% 2352 MHz:   0% 2616 MHz: .28% 2868 MHz: .51% 3096 MHz: .47% 3300 MHz: .58% 3468 MHz: .40% 3624 MHz: .26% 3756 MHz: .02% 3852 MHz: .13% 3924 MHz: 7.4% 3996 MHz: 2.6% 4044 MHz: 4.3% 4104 MHz: .51% 4416 MHz:  14% 4512 MHz:  45%)
+P1-Cluster idle residency:   5.74%
+P1-Cluster down residency:   0.00%
+CPU 8 frequency: 4469 MHz
+CPU 8 active residency:  27.28% (1260 MHz: .16% 1512 MHz:   0% 1800 MHz:   0% 2088 MHz: .00% 2352 MHz:   0% 2616 MHz:   0% 2868 MHz: .00% 3096 MHz: .41% 3300 MHz: .00% 3468 MHz: .00% 3624 MHz: .03% 3756 MHz: .00% 3852 MHz: .01% 3924 MHz: .05% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz: .00% 4416 MHz: .02% 4512 MHz:  27%)
+CPU 8 idle residency:  72.72%
+CPU 8 down residency:   0.00%
+CPU 9 frequency: 4481 MHz
+CPU 9 active residency:  18.59% (1260 MHz: .04% 1512 MHz:   0% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz:   0% 2616 MHz:   0% 2868 MHz: .00% 3096 MHz: .00% 3300 MHz: .36% 3468 MHz: .00% 3624 MHz: .01% 3756 MHz:   0% 3852 MHz: .00% 3924 MHz: .01% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz:   0% 4416 MHz: .00% 4512 MHz:  18%)
+CPU 9 idle residency:  81.41%
+CPU 9 down residency:   0.00%
+CPU 10 frequency: 4465 MHz
+CPU 10 active residency:  28.91% (1260 MHz: .23% 1512 MHz: .01% 1800 MHz:   0% 2088 MHz: .00% 2352 MHz:   0% 2616 MHz:   0% 2868 MHz: .01% 3096 MHz: .01% 3300 MHz: .00% 3468 MHz: .29% 3624 MHz: .11% 3756 MHz: .01% 3852 MHz: .13% 3924 MHz: .00% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz: .08% 4416 MHz: .36% 4512 MHz:  28%)
+CPU 10 idle residency:  71.09%
+CPU 10 down residency:   0.00%
+CPU 11 frequency: 4394 MHz
+CPU 11 active residency:  16.23% (1260 MHz: .09% 1512 MHz:   0% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz:   0% 2616 MHz: .19% 2868 MHz: .50% 3096 MHz:   0% 3300 MHz: .07% 3468 MHz: .12% 3624 MHz: .10% 3756 MHz: .02% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz:   0% 4104 MHz: .34% 4416 MHz: .10% 4512 MHz:  15%)
+CPU 11 idle residency:  83.77%
+CPU 11 down residency:   0.00%
+
+CPU Power: 11901 mW
+GPU Power: 261 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 12161 mW
+
+
+*** Sampled system activity (Thu Nov 19 16:06:55 2026 +0000) (1020.27ms elapsed) ***
+
+*** Running tasks ***
+
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)
+OneDrive                           91960  911.94    78.10  0.00    0.00               10.76   0.00              
+simulator                          7523   799.73    26.96  0.00    0.00               0.00    0.00              
+kernel_task                        0      1040.08   0.00   4299.00 0.00               6638.30 0.00              
+DEAD_TASKS                         -1     477.90    26.63  0.00    0.00               15.68   0.00              
+top                                7572   952.44    13.95  0.00    0.00               0.00    0.00              
+plugin-container                   51519  229.85    48.81  0.00    0.00               5.87    0.00              
+sysmond                            832    13.08     23.82  0.00    0.00               0.00    0.00              
+Code Helper (Renderer)             809    16.49     45.01  0.00    0.00               59.68   0.00              
+powermetrics                       7531   18.98     4.73   0.00    0.00               0.98    0.00              
+Code Helper                        59640  10.18     36.40  6.85    0.00               114.47  0.00              
+fileproviderd                      687    80.41     59.90  0.00    0.00               5.87    0.00              
+coreduetd                          342    48.87     62.23  0.00    0.00               0.00    0.00              
+Code                               675    4.55      27.38  0.00    0.00               1.96    0.00              
+coreaudiod                         399    78.16     96.63  0.00    0.00               86.10   0.00              
+airportd                           391    96.02     76.92  0.00    0.00               0.00    0.00              
+ControlCenter                      694    12.98     10.52  0.00    0.00               0.98    0.00              
+WindowServer                       378    22.85     31.96  3.91    0.00               48.92   0.00              
+plugin-container                   51485  22.26     41.94  0.00    0.00               4.89    0.00              
+Code Helper (Plugin)               26231  2.99      24.08  3.91    0.00               7.83    0.00              
+grep                               7573   8.91      39.25  0.00    0.00               0.00    0.00              
+WiFiAgent                          677    41.53     75.87  0.00    0.00               0.98    0.00              
+Spotify                            17981  29.64     47.04  14.68   0.00               58.70   0.00              
+Code Helper                        26230  1.79      22.34  0.98    0.00               1.96    0.00              
+OneDrive File Provider             6569   15.81     57.64  0.00    0.00               4.89    0.00              
+sleep                              7574   6.81      48.98  0.00    0.00               0.00    0.00              
+Code Helper                        839    1.98      22.25  12.72   0.00               23.48   0.00              
+zsh                                7526   1.08      10.51  0.98    0.00               0.98    0.00              
+Code Helper                        5047   1.28      25.57  4.89    0.00               9.78    0.00              
+suggestd                           706    17.50     70.53  0.00    0.00               0.98    0.00              
+firefox                            1225   2.70      31.06  0.00    0.00               0.98    0.00              
+plugin-container                   16308  11.00     17.16  0.00    0.00               5.87    0.00              
+cpptools                           26320  1.24      17.13  0.00    0.00               11.74   0.00              
+OneDrive Sync Service              91961  1.04      5.63   0.00    0.00               0.98    0.00              
+corespotlightd                     759    17.52     55.18  0.00    0.00               0.00    0.00              
+Code Helper (Plugin)               30151  1.03      49.79  5.87    0.00               6.85    0.00              
+opendirectoryd                     347    12.41     31.32  0.00    0.00               0.98    0.00              
+fseventsd                          312    14.53     19.48  5.87    0.00               23.48   0.00              
+launchd                            1      6.17      27.19  0.00    0.00               0.00    0.00              
+notifyd                            371    1.89      47.57  0.00    0.00               0.00    0.00              
+plugin-container                   9677   1.28      10.23  0.00    0.00               0.98    0.00              
+Code Helper (Plugin)               5187   0.55      11.32  0.98    0.00               1.96    0.00              
+Code Helper (Plugin)               5226   0.54      9.21   0.98    0.00               1.96    0.00              
+trustd                             17286  6.02      63.50  0.00    0.00               0.00    0.00              
+com.apple.DriverKit-AppleBCMWLAN   553    11.26     53.64  0.00    0.00               198.61  0.00              
+plugin-container                   9682   0.97      11.12  0.00    0.00               0.98    0.00              
+filecoordinationd                  700    6.30      60.35  0.00    0.00               0.00    0.00              
+UserEventAgent                     310    9.18      28.26  0.00    0.00               0.00    0.00              
+Code Helper (Plugin)               5370   0.42      8.75   0.98    0.00               1.96    0.00              
+Code Helper (Plugin)               26356  0.59      6.01   0.98    0.00               1.96    0.00              
+mds                                336    6.55      35.63  0.00    0.00               12.72   0.00              
+runningboardd                      382    6.46      64.88  0.00    0.00               0.98    0.00              
+com.cisco.anyconnect.macos.acsoc   552    6.93      42.74  0.00    0.00               1.96    0.00              
+plugin-container                   26459  1.09      9.59   0.00    0.00               0.98    0.00              
+mds_stores                         566    4.93      43.55  0.00    0.00               0.00    0.00              
+cpptools                           5618   0.43      21.56  0.00    0.00               11.74   0.00              
+plugin-container                   25945  2.82      19.12  0.00    0.00               2.94    0.00              
+cfprefsd                           380    6.29      21.64  0.00    0.00               0.00    0.00              
+logd                               308    5.06      33.17  0.00    0.00               0.00    0.00              
+spotlightknowledged                1343   4.53      27.59  0.00    0.00               0.00    0.00              
+mDNSResponder                      460    6.35      57.21  20.55   0.00               33.26   0.00              
+plugin-container                   9238   2.40      27.57  0.00    0.00               1.96    0.00              
+plugin-container                   51496  3.25      15.72  0.00    0.00               3.91    0.00              
+plugin-container                   76418  8.46      20.65  0.00    0.00               6.85    0.00              
+Firefox GPU Helper                 1299   1.24      54.15  0.00    0.00               9.78    0.00              
+biomed                             406    4.66      46.54  0.00    0.00               0.00    0.00              
+PerfPowerServices                  59368  7.34      35.09  0.00    0.00               0.00    0.00              
+analyticsd                         388    7.30      25.75  0.00    0.00               0.00    0.00              
+Activity Monitor                   2421   6.56      25.34  0.00    0.00               0.98    0.00              
+plugin-container                   49101  1.64      21.36  0.00    0.00               3.91    0.00              
+powerd                             321    2.21      25.39  0.00    0.00               0.98    0.00              
+Code Helper (Plugin)               26340  0.17      15.82  0.98    0.00               1.96    0.00              
+trustd                             17302  4.75      42.91  0.00    0.00               0.00    0.00              
+Spotify Helper                     17987  2.84      19.26  0.00    0.00               0.98    0.00              
+bluetoothd                         370    1.21      66.12  0.00    0.00               0.00    0.00              
+Finder                             696    2.73      48.89  0.00    0.00               0.00    0.00              
+com.apple.appkit.xpc.openAndSave   11060  2.33      51.28  0.00    0.00               0.98    0.00              
+com.apple.appkit.xpc.openAndSave   11231  2.09      56.74  0.00    0.00               0.00    0.00              
+plugin-container                   33790  3.78      16.11  0.00    0.00               2.94    0.00              
+launchservicesd                    350    1.23      21.40  0.00    0.00               0.00    0.00              
+cpptools-srv                       99815  0.10      14.19  0.00    0.00               5.87    0.00              
+plugin-container                   33849  1.83      32.76  0.00    0.00               2.94    0.00              
+coreservicesd                      385    1.08      9.63   0.00    0.00               0.00    0.00              
+gamepolicyd                        716    1.27      29.56  0.00    0.00               1.96    0.00              
+com.apple.AmbientDisplayAgent      1831   2.49      46.57  0.00    0.00               0.00    0.00              
+mysqld                             541    2.33      35.69  0.00    0.00               97.84   0.00              
+revisiond                          366    1.52      26.67  0.00    0.00               0.98    0.00              
+plugin-container                   1303   0.10      46.49  0.00    0.00               1.96    0.00              
+corebrightnessd                    373    2.63      39.90  0.00    0.00               0.98    0.00              
+UserEventAgent                     569    1.51      49.60  0.00    0.00               0.00    0.00              
+NordVPN                            594    1.77      51.36  0.00    0.00               55.77   0.00              
+plugin-container                   2661   0.06      8.14   0.00    0.00               0.98    0.00              
+cpptools-srv                       36497  0.08      17.07  0.00    0.00               4.89    0.00              
+configd                            319    1.62      10.50  0.00    0.00               0.00    0.00              
+FocusriteControlServer             540    1.52      25.31  0.00    0.00               24.46   0.00              
+com.apple.DriverKit.AppleUserECM   93640  1.70      28.29  0.00    0.00               7.83    0.00              
+distnoted                          361    0.67      6.99   0.00    0.00               0.00    0.00              
+cpptools-srv2                      5638   0.11      8.94   0.00    0.00               2.94    0.00              
+symptomsd                          437    1.90      19.25  0.00    0.00               0.00    0.00              
+cpptools-srv                       31521  0.09      21.88  0.00    0.00               4.89    0.00              
+cpptools-srv                       5738   0.06      15.40  0.00    0.00               2.94    0.00              
+cpptools-srv2                      27177  0.08      9.10   0.00    0.00               2.94    0.00              
+calaccessd                         707    1.44      6.01   0.00    0.00               0.00    0.00              
+syspolicyd                         462    0.74      29.91  0.00    0.00               4.89    0.00              
+LinearMouse                        1277   1.00      14.68  0.00    0.00               0.98    0.00              
+cpptools-srv                       64619  0.08      19.90  0.00    0.00               4.89    0.00              
+nearbyd                            733    0.38      49.85  0.00    0.00               0.00    0.00              
+Spotify Helper                     17989  1.08      7.63   0.00    0.00               1.96    0.00              
+cpptools-srv2                      5636   0.04      18.44  0.00    0.00               2.94    0.00              
+apsd                               349    0.96      10.41  0.00    0.00               4.89    0.00              
+mediaremoted                       313    1.06      5.20   0.00    0.00               0.00    0.00              
+locationd                          355    0.59      12.85  0.00    0.00               0.98    0.00              
+audioclocksyncd                    513    0.79      39.00  0.00    0.00               0.00    0.00              
+contextstored                      384    0.26      11.62  0.00    0.00               0.00    0.00              
+com.apple.WebKit.Networking        767    0.54      16.54  0.00    0.00               6.85    0.00              
+watchdogd                          332    0.55      16.88  0.00    0.00               0.98    0.00              
+nsurlsessiond                      394    0.45      6.17   0.00    0.00               0.98    0.00              
+cpptools-srv2                      26391  0.04      24.27  0.00    0.00               2.94    0.00              
+plugin-container                   26746  0.02      27.59  0.00    0.00               0.98    0.00              
+sharingd                           614    0.24      72.86  0.00    0.00               0.00    0.00              
+Cisco Secure Client                1282   0.66      58.36  0.00    0.00               7.83    0.00              
+appstoreagent                      1334   0.80      9.93   0.00    0.00               0.98    0.00              
+thermalmonitord                    346    0.71      11.07  0.00    0.00               0.98    0.00              
+csc_iseagentd                      1311   0.47      29.58  0.00    0.00               24.46   0.00              
+systemstats                        316    0.59      11.72  0.00    0.00               0.98    0.00              
+dasd                               359    0.61      3.81   0.00    0.00               0.98    0.00              
+SafariBookmarksSyncAgent           14483  0.54      10.32  0.00    0.00               0.98    0.00              
+remindd                            93780  0.58      7.90   0.00    0.00               0.98    0.00              
+cameracaptured                     505    0.56      5.84   0.00    0.00               1.96    0.00              
+PasswordBreachAgent                14477  0.24      18.82  0.00    0.00               4.89    0.00              
+com.apple.cmio.registerassistant   375    0.48      3.53   0.00    0.00               0.98    0.00              
+duetexpertd                        91819  0.39      42.33  0.00    0.00               0.00    0.00              
+translationd                       89572  0.41      11.95  0.00    0.00               0.98    0.00              
+lsd                                578    0.33      8.03   0.00    0.00               0.98    0.00              
+replayd                            714    0.32      5.37   0.00    0.00               0.98    0.00              
+mdworker_shared                    7538   0.28      9.94   0.00    0.00               0.98    0.00              
+mDNSResponderHelper                494    0.07      12.82  0.00    0.00               0.98    0.00              
+Preview                            11230  0.21      7.76   0.00    0.00               0.98    0.00              
+lockoutagent                       662    0.20      33.02  0.00    0.00               0.98    0.00              
+ContinuityCaptureAgent             648    0.06      25.84  0.00    0.00               1.96    0.00              
+com.apple.WebKit.GPU               1510   0.18      7.77   0.00    0.00               0.98    0.00              
+amsaccountsd                       792    0.18      8.99   0.00    0.00               0.98    0.00              
+wifip2pd                           643    0.02      54.12  0.00    0.00               0.00    0.00              
+com.apple.audio.Core-Audio-Drive   485    0.03      17.75  0.00    0.00               0.98    0.00              
+ALL_TASKS                          -2     4419.30   36.51  4392.97 0.00               7789.14 0.00              
+
+**** Processor usage ****
+
+E-Cluster Online: 100%
+E-Cluster HW active frequency: 1617 MHz
+E-Cluster HW active residency:  79.29% (1020 MHz:  38% 1404 MHz: 7.1% 1788 MHz: 6.2% 2112 MHz: 5.8% 2352 MHz: 3.0% 2532 MHz: 2.3% 2592 MHz:  17%)
+E-Cluster idle residency:  20.71%
+E-Cluster down residency:   0.00%
+CPU 0 frequency: 1662 MHz
+CPU 0 active residency:  49.30% (1020 MHz:  21% 1404 MHz: 4.9% 1788 MHz: 5.1% 2112 MHz: 4.9% 2352 MHz: 2.0% 2532 MHz: 2.1% 2592 MHz: 9.3%)
+CPU 0 idle residency:  50.70%
+CPU 0 down residency:   0.00%
+CPU 1 frequency: 1701 MHz
+CPU 1 active residency:  33.74% (1020 MHz:  13% 1404 MHz: 3.0% 1788 MHz: 4.4% 2112 MHz: 4.3% 2352 MHz: 1.6% 2532 MHz: 1.9% 2592 MHz: 5.5%)
+CPU 1 idle residency:  66.26%
+CPU 1 down residency:   0.00%
+CPU 2 frequency: 1688 MHz
+CPU 2 active residency:  26.77% (1020 MHz:  11% 1404 MHz: 2.3% 1788 MHz: 3.1% 2112 MHz: 4.1% 2352 MHz: 1.7% 2532 MHz: 1.4% 2592 MHz: 3.8%)
+CPU 2 idle residency:  73.23%
+CPU 2 down residency:   0.00%
+CPU 3 frequency: 1870 MHz
+CPU 3 active residency:  16.18% (1020 MHz: 4.4% 1404 MHz: .76% 1788 MHz: 2.3% 2112 MHz: 3.5% 2352 MHz: .85% 2532 MHz: .71% 2592 MHz: 3.6%)
+CPU 3 idle residency:  83.82%
+CPU 3 down residency:   0.00%
+
+P0-Cluster Online: 100%
+P0-Cluster HW active frequency: 4114 MHz
+P0-Cluster HW active residency:  99.97% (1260 MHz: .02% 1512 MHz:   0% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz: .13% 2616 MHz: .28% 2868 MHz: .24% 3096 MHz: .01% 3300 MHz:   0% 3468 MHz:   0% 3624 MHz: .24% 3756 MHz: .00% 3852 MHz:   0% 3924 MHz:  59% 3996 MHz: 1.2% 4044 MHz: 1.1% 4104 MHz:   0% 4416 MHz:  26% 4512 MHz:  12%)
+P0-Cluster idle residency:   0.03%
+P0-Cluster down residency:   0.00%
+CPU 4 frequency: 4501 MHz
+CPU 4 active residency:  67.71% (1260 MHz: .01% 1512 MHz:   0% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz: .06% 2616 MHz: .25% 2868 MHz: .06% 3096 MHz: .01% 3300 MHz:   0% 3468 MHz:   0% 3624 MHz: .02% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz: .07% 4104 MHz:   0% 4416 MHz: .02% 4512 MHz:  67%)
+CPU 4 idle residency:  32.29%
+CPU 4 down residency:   0.00%
+CPU 5 frequency: 4494 MHz
+CPU 5 active residency:  68.86% (1260 MHz: .00% 1512 MHz:   0% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz: .13% 2616 MHz: .15% 2868 MHz: .24% 3096 MHz: .01% 3300 MHz:   0% 3468 MHz:   0% 3624 MHz: .24% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz: .07% 4104 MHz:   0% 4416 MHz: .23% 4512 MHz:  68%)
+CPU 5 idle residency:  31.14%
+CPU 5 down residency:   0.00%
+CPU 6 frequency: 4498 MHz
+CPU 6 active residency:  70.26% (1260 MHz: .00% 1512 MHz:   0% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz: .13% 2616 MHz: .20% 2868 MHz: .12% 3096 MHz: .01% 3300 MHz:   0% 3468 MHz:   0% 3624 MHz: .09% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz: .07% 4104 MHz:   0% 4416 MHz: .47% 4512 MHz:  69%)
+CPU 6 idle residency:  29.74%
+CPU 6 down residency:   0.00%
+CPU 7 frequency: 4498 MHz
+CPU 7 active residency:  70.39% (1260 MHz:   0% 1512 MHz:   0% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz: .13% 2616 MHz: .19% 2868 MHz: .12% 3096 MHz: .01% 3300 MHz:   0% 3468 MHz:   0% 3624 MHz: .10% 3756 MHz:   0% 3852 MHz:   0% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz: .07% 4104 MHz:   0% 4416 MHz: .51% 4512 MHz:  69%)
+CPU 7 idle residency:  29.61%
+CPU 7 down residency:   0.00%
+
+P1-Cluster HW active frequency: 3661 MHz
+P1-Cluster HW active residency:  95.02% (1260 MHz:  19% 1512 MHz: .41% 1800 MHz: .50% 2088 MHz: .77% 2352 MHz: .09% 2616 MHz: .87% 2868 MHz: .61% 3096 MHz: .78% 3300 MHz: .18% 3468 MHz:   0% 3624 MHz:   0% 3756 MHz: .09% 3852 MHz: .20% 3924 MHz: 8.5% 3996 MHz: 1.7% 4044 MHz: 5.6% 4104 MHz: .21% 4416 MHz:  12% 4512 MHz:  43%)
+P1-Cluster idle residency:   4.98%
+P1-Cluster down residency:   0.00%
+CPU 8 frequency: 4449 MHz
+CPU 8 active residency:  23.38% (1260 MHz: .14% 1512 MHz: .00% 1800 MHz: .00% 2088 MHz: .01% 2352 MHz: .01% 2616 MHz: .05% 2868 MHz: .01% 3096 MHz: .45% 3300 MHz: .04% 3468 MHz:   0% 3624 MHz:   0% 3756 MHz: .08% 3852 MHz: .01% 3924 MHz:   0% 3996 MHz: .00% 4044 MHz: .09% 4104 MHz: .12% 4416 MHz: .13% 4512 MHz:  22%)
+CPU 8 idle residency:  76.62%
+CPU 8 down residency:   0.00%
+CPU 9 frequency: 4311 MHz
+CPU 9 active residency:  26.73% (1260 MHz: .25% 1512 MHz: .20% 1800 MHz: .32% 2088 MHz: .73% 2352 MHz: .04% 2616 MHz: .18% 2868 MHz: .23% 3096 MHz: .09% 3300 MHz: .04% 3468 MHz:   0% 3624 MHz:   0% 3756 MHz: .01% 3852 MHz: .20% 3924 MHz:   0% 3996 MHz: .01% 4044 MHz: .24% 4104 MHz: .21% 4416 MHz: .15% 4512 MHz:  24%)
+CPU 9 idle residency:  73.27%
+CPU 9 down residency:   0.00%
+CPU 10 frequency: 4392 MHz
+CPU 10 active residency:  26.41% (1260 MHz: .23% 1512 MHz: .07% 1800 MHz: .04% 2088 MHz: .02% 2352 MHz: .06% 2616 MHz: .50% 2868 MHz: .26% 3096 MHz: .10% 3300 MHz: .12% 3468 MHz:   0% 3624 MHz:   0% 3756 MHz: .00% 3852 MHz: .01% 3924 MHz:   0% 3996 MHz: .19% 4044 MHz: .12% 4104 MHz: .26% 4416 MHz: .22% 4512 MHz:  24%)
+CPU 10 idle residency:  73.59%
+CPU 10 down residency:   0.00%
+CPU 11 frequency: 4502 MHz
+CPU 11 active residency:  14.41% (1260 MHz: .03% 1512 MHz: .00% 1800 MHz:   0% 2088 MHz:   0% 2352 MHz: .00% 2616 MHz: .01% 2868 MHz: .00% 3096 MHz: .00% 3300 MHz: .00% 3468 MHz:   0% 3624 MHz:   0% 3756 MHz: .00% 3852 MHz: .00% 3924 MHz:   0% 3996 MHz:   0% 4044 MHz: .01% 4104 MHz: .03% 4416 MHz: .00% 4512 MHz:  14%)
+CPU 11 idle residency:  85.59%
+CPU 11 down residency:   0.00%
+
+CPU Power: 10951 mW
+GPU Power: 11 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 10962 mW
