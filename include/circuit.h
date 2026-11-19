@@ -6,6 +6,7 @@
 
 /* LOCAL IMPORTS */
 #include <matrix.h>
+#include <gate.h>
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
@@ -13,13 +14,14 @@ typedef struct CIRCUIT_STRUCT{
 
     short int noq;
     short int depth;
-    int* gates;
-    int* qubits;
+    gate* gates;
     matrix* stateVector;
 
 } circuit;
 
 /*--------------------------------------------------------------------------------------------------------------------*/
+
+void printCircuit(circuit* c);
 
 circuit* newCircuit(short int noq, short int depth);
 
