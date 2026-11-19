@@ -17,3 +17,6 @@ c:
 
 debug:
 	echo "tbd ldb cmd"
+
+loc:
+	git ls-files '.c' '.h' | xargs wc -l

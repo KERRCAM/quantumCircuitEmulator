@@ -80,47 +80,6 @@ void initBaseGates(void){
     controlledNot->mat[11] = 1.0;
     controlledNot->mat[14] = 1.0;
 
-    // matrix* result;
-    // matrix* q0 = newMatrix(2, 1);
-    // q0->mat[0] = 1.0;
-    // matrix* q1 = newMatrix(2, 1);
-    // q1->mat[0] = 1.0;
-
-    // matrix* sv = tensorProduct(q0, q1);
-    // printMatrix(sv);
-    // printf("\n");
-
-    // matrix* hxi = tensorProduct(hadamard, identity);
-    // printMatrix(hxi);
-    // printf("\n");
-
-    // result = matrixMult(controlledNot, hxi);
-    // printMatrix(result);
-    // printf("\n");
-
-    // result = matrixMult(result, sv);
-    // printMatrix(result);
-    // printf("\n");
-
-
-    // result = matrixMult(hxi, sv);
-    // printMatrix(result);
-    // printf("\n");
-
-    // result = matrixMult(controlledNot, result);
-    // printMatrix(result);
-    // printf("\n");
-
-
-    // matrix* a = newMatrix(1, 2);
-    // matrix* b = newMatrix(2, 1);
-    // a->mat[0] = 1.0;
-    // a->mat[1] = 2.0;
-    // b->mat[0] = 3.0;
-    // b->mat[1] = 4.0;
-    // matrix* r = tensorProduct(a, b);
-    // printMatrix(r);
-
 }
 
 /*--------------------------------------------------------------------------------------------------------------------*/
