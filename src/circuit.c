@@ -1,10 +1,12 @@
 /* LIBRARY IMPORTS */
 #include <stdlib.h>
+#include <complex.h>
 
 /* LOCAL IMPORTS */
 #include <circuit.h>
 #include <gate.h>
 
+/*--------------------------------------------------------------------------------------------------------------------*/
 
 const char* gateStrings[] = {
 
@@ -201,6 +203,7 @@ void executeCircuit(circuit* c){
     }
 
     c->stateVector = matrixMult(cr, c->stateVector);
+    c->circuitMatrix = cr;
 
 }
 
@@ -228,6 +231,39 @@ void printStateVector(circuit* c){
 
     printf("STATE VECTOR:\n");
     printMatrix(c->stateVector);
+    printf("\n");
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+void printCircuitMatrix(circuit* c){
+
+    printf("CIRCUIT MATRIX:\n");
+    printMatrix(c->circuitMatrix);
+    printf("\n");
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+void printProbabilities(circuit* c){
+
+    printf("STATE PROBABILITIES:\n");
+    for (int i = 0; i < c->stateVector->h; i++){
+        complex double p = cpow(cabs((c->stateVector->mat[i])), 2.0);
+        printf("|%d>: %f %+fi\n", i, creal(p), cimag(p));
+    }
+
+    printf("\n");
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+void printMeasurementResult(circuit* c){
+
+    /* Loop for measurement gates and change sv accordingly */
 
 }
 

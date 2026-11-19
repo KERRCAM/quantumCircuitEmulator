@@ -76,10 +76,6 @@ void initBaseGates(void){
     swap->mat[15] = 1.0;
 
     controlledNot = newMatrix(4, 4);
-    // controlledNot->mat[0] = 1.0;
-    // controlledNot->mat[5] = 1.0;
-    // controlledNot->mat[11] = 1.0;
-    // controlledNot->mat[14] = 1.0;
     controlledNot->mat[0] = 1.0;
     controlledNot->mat[7] = 1.0;
     controlledNot->mat[10] = 1.0;
@@ -90,55 +86,6 @@ void initBaseGates(void){
     czGate->mat[5] = 1.0;
     czGate->mat[10] = 1.0;
     czGate->mat[15] = -1.0;
-
-
-
-
-
-
-    // matrix* result;
-    // matrix* q0 = newMatrix(2, 1);
-    // q0->mat[0] = 1.0;
-    // matrix* q1 = newMatrix(2, 1);
-    // q1->mat[0] = 1.0;
-
-    // matrix* sv = tensorProduct(q0, q1);
-    // printMatrix(sv);
-    // printf("\n");
-
-    // matrix* cr;
-
-
-
-    // matrix* l8 = tensorProduct(hadamard, identity);
-    // matrix* l7 = tensorProduct(pauliX, hadamard);
-    // matrix* l6 = tensorProduct(hadamard, pauliX);
-    // matrix* l5 = controlledNot;
-    // matrix* l4 = l8;
-    // matrix* l3 = tensorProduct(pauliX, pauliX);
-    // matrix* l2 = tensorProduct(hadamard, hadamard);
-    // matrix* l1 = czGate;
-    // matrix* l0 = l2;
-
-    // printMatrix(tensorProduct(pauliX, hadamard));
-
-
-    // cr = matrixMult(l1, l0);
-    // cr = matrixMult(l2, cr);
-    // cr = matrixMult(l3, cr);
-    // cr = matrixMult(l4, cr);
-    // cr = matrixMult(l5, cr);
-
-    // cr = matrixMult(l6, cr);
-    // cr = matrixMult(l7, cr);
-    // cr = matrixMult(l8, cr);
-
-    // printMatrix(cr);
-    // printf("\n");
-    // result = matrixMult(cr, sv);
-    // printMatrix(result);
-
-
 
 }
 

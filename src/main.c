@@ -17,7 +17,9 @@ void testH(){
     printCircuit(qc);
     executeCircuit(qc);
     printStateVector(qc);
-    printf("\n#---------------------------------------------------------------#\n");
+    printCircuitMatrix(qc);
+    printProbabilities(qc);
+    printf("\n#---------------------------------------------------------------------------------------------------#\n");
 
 }
 
@@ -31,7 +33,9 @@ void testDepth(){
     printCircuit(qc);
     executeCircuit(qc);
     printStateVector(qc);
-    printf("\n#---------------------------------------------------------------#\n");
+    printCircuitMatrix(qc);
+    printProbabilities(qc);
+    printf("\n#---------------------------------------------------------------------------------------------------#\n");
 
 }
 
@@ -45,7 +49,9 @@ void testQubits(){
     printCircuit(qc);
     executeCircuit(qc);
     printStateVector(qc);
-    printf("\n#---------------------------------------------------------------#\n");
+    printCircuitMatrix(qc);
+    printProbabilities(qc);
+    printf("\n#---------------------------------------------------------------------------------------------------#\n");
 
 }
 
@@ -58,7 +64,9 @@ void testX(){
     printCircuit(qc);
     executeCircuit(qc);
     printStateVector(qc);
-    printf("\n#---------------------------------------------------------------#\n");
+    printCircuitMatrix(qc);
+    printProbabilities(qc);
+    printf("\n#---------------------------------------------------------------------------------------------------#\n");
 
 }
 
@@ -71,7 +79,9 @@ void testY(){
     printCircuit(qc);
     executeCircuit(qc);
     printStateVector(qc);
-    printf("\n#---------------------------------------------------------------#\n");
+    printCircuitMatrix(qc);
+    printProbabilities(qc);
+    printf("\n#---------------------------------------------------------------------------------------------------#\n");
 
 }
 
@@ -85,7 +95,9 @@ void testZ(){
     printCircuit(qc);
     executeCircuit(qc);
     printStateVector(qc);
-    printf("\n#---------------------------------------------------------------#\n");
+    printCircuitMatrix(qc);
+    printProbabilities(qc);
+    printf("\n#---------------------------------------------------------------------------------------------------#\n");
 
 }
 
@@ -99,7 +111,9 @@ void testS(){
     printCircuit(qc);
     executeCircuit(qc);
     printStateVector(qc);
-    printf("\n#---------------------------------------------------------------#\n");
+    printCircuitMatrix(qc);
+    printProbabilities(qc);
+    printf("\n#---------------------------------------------------------------------------------------------------#\n");
 
 }
 
@@ -113,7 +127,9 @@ void testT(){
     printCircuit(qc);
     executeCircuit(qc);
     printStateVector(qc);
-    printf("\n#---------------------------------------------------------------#\n");
+    printCircuitMatrix(qc);
+    printProbabilities(qc);
+    printf("\n#---------------------------------------------------------------------------------------------------#\n");
 
 }
 
@@ -127,7 +143,9 @@ void testSwap(){
     printCircuit(qc);
     executeCircuit(qc);
     printStateVector(qc);
-    printf("\n#---------------------------------------------------------------#\n");
+    printCircuitMatrix(qc);
+    printProbabilities(qc);
+    printf("\n#---------------------------------------------------------------------------------------------------#\n");
 
 }
 
@@ -141,7 +159,9 @@ void testCNOT(){
     printCircuit(qc);
     executeCircuit(qc);
     printStateVector(qc);
-    printf("\n#---------------------------------------------------------------#\n");
+    printCircuitMatrix(qc);
+    printProbabilities(qc);
+    printf("\n#---------------------------------------------------------------------------------------------------#\n");
 
 }
 
@@ -169,7 +189,9 @@ void testGrovers(){
     printCircuit(qc);
     executeCircuit(qc);
     printStateVector(qc);
-    printf("\n#---------------------------------------------------------------#\n");
+    printCircuitMatrix(qc);
+    printProbabilities(qc);
+    printf("\n#---------------------------------------------------------------------------------------------------#\n");
 
 }
 
@@ -182,7 +204,9 @@ void testMaxDepth(int n){
     printCircuit(qc);
     executeCircuit(qc);
     printStateVector(qc);
-    printf("\n#---------------------------------------------------------------#\n");
+    printCircuitMatrix(qc);
+    printProbabilities(qc);
+    printf("\n#---------------------------------------------------------------------------------------------------#\n");
 
 }
 
@@ -200,12 +224,14 @@ void testMaxQubits(int n){
     printCircuit(qc);
     executeCircuit(qc);
     printStateVector(qc);
+    printCircuitMatrix(qc);
+    printProbabilities(qc);
 
     diff = (((double) clock()) / CLOCKS_PER_SEC) - time;
     printf("Program run time = %lf seconds\n", diff);
     system("sudo killall powermetrics");
 
-    printf("\n#---------------------------------------------------------------#\n");
+    printf("\n#---------------------------------------------------------------------------------------------------#\n");
 
 }
 

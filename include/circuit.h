@@ -16,6 +16,7 @@ typedef struct CIRCUIT_STRUCT{
     short int depth;
     gate* gates;
     matrix* stateVector;
+    matrix* circuitMatrix;
 
 } circuit;
 
@@ -48,6 +49,8 @@ void CZ(circuit* c, int control, int target, int depth);
 void executeCircuit(circuit* c);
 
 void printStateVector(circuit* c);
+
+void printCircuitMatrix(circuit* c);
 
 void printProbabilities(circuit* c);
 

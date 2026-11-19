@@ -8,9 +8,8 @@ To Build the simulator executable you will need the following dependencies:
 
 You can then use the following commands to build and run the test programs:
 - ```make b```: Compiles current active circuit test with src/main.c
-- ```make tests```: Compiles all the core circuit tests
 - ```make r```: Runs active circuit test
-- ```make bench```: Runs and measures performance of test programs
+- ```make log```: uses a local processor tool - can be found at https://github.com/KERRCAM/programPerformanceAnalysisTool
 - ```make c```: Clears all executables (might have to run before building if encountering errors)
 - ```make debug```: Starts a debug run with lldb of the current active circuit
 
