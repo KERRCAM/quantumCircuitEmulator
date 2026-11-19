@@ -19,7 +19,7 @@ c:
 	rm $(BUILD_DIR)/$(OBJ_NAME)
 
 debug:
-	echo "tbd ldb cmd"
+	lldb builds/$(OBJ_NAME)
 
 loc:
 	git ls-files '*.c' '*.h' | xargs wc -l

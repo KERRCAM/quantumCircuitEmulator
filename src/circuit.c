@@ -8,33 +8,19 @@
 
 const char* gateStrings[] = {
 
-    "TARGET",     /* int value =-1 */
-    "I_GATE",     /* int value = 0 */
-    "H_GATE",     /* int value = 1 */
-    "X_GATE",     /* int value = 2 */
-    "Y_GATE",     /* int value = 3 */
-    "Z_GATE",     /* int value = 4 */
-    "S_GATE",     /* int value = 5 */
-    "T_GATE",     /* int value = 6 */
-    "SWAP_GATE",  /* int value = 7 */
-    "CNOT_GATE",  /* int value = 8 */
+    " TG ",     /* int value =-1 */
+    " I  ",     /* int value = 0 */
+    " H  ",     /* int value = 1 */
+    " X  ",     /* int value = 2 */
+    " Y  ",     /* int value = 3 */
+    " Z  ",     /* int value = 4 */
+    " S  ",     /* int value = 5 */
+    " T  ",     /* int value = 6 */
+    " SP ",     /* int value = 7 */
+    " CX ",     /* int value = 8 */
+    " CZ ",     /* int value = 9 */
 
 };
-
-/*--------------------------------------------------------------------------------------------------------------------*/
-
-void printCircuit(circuit* c){
-
-    for (int q = 0; q < c->noq; q++){
-        for (int d = 0; d < c->depth; d++){
-            printf("%s, ", gateStrings[c->gates[q * c->depth + d].tag + 1]);
-        }
-        printf("\n");
-    }
-
-    printf("\n");
-
-}
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
@@ -165,6 +151,22 @@ void CNOT(circuit* c, int control, int target, int depth){
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
+void CZ(circuit* c, int control, int target, int depth){
+
+    if (control > c->noq || target > c->noq){ printf("WARNING: Qubit index outside of range of circuit\n"); return;}
+    if (depth > c->depth){ printf("WARNING: Depth index outside of range of circuit\n"); return;}
+
+    int controlIndex = control * c->depth + depth;
+    int targetIndex = target * c->depth + depth;
+    if (c->gates[controlIndex].tag == 0 && c->gates[targetIndex].tag == 0){
+        c->gates[controlIndex] = newGate(CZ_GATE, controlIndex, targetIndex);
+        c->gates[targetIndex] = newGate(-1, -1, -1);
+    } else { printf("WARNING: Already assigned a gate to this position\n");}
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
 void executeCircuit(circuit* c){
 
     matrix* basis = newMatrix(2, 1);
@@ -172,20 +174,59 @@ void executeCircuit(circuit* c){
     c->stateVector = basis;
     for (int q = 1; q < c->noq; q++){c->stateVector = tensorProduct(c->stateVector, basis);}
 
-    for (int d = 0; d < c->depth; d++){
+    matrix* cr = NULL;
 
-        matrix* layer = getGate(c->gates[d].tag);
+    for (int d = c->depth - 1; d >= 0; d--){
 
-        for (int q = 1; q < c->noq; q++){
+        matrix* layer = NULL;
+
+        for (int q = c->noq - 1; q >= 0; q--){
             if (c->gates[q * c->depth + d].tag != -1){
-                layer = tensorProduct(getGate(c->gates[q * c->depth + d].tag), layer);
+                if (layer == NULL){ layer = getGate(c->gates[q * c->depth + d].tag);}
+                else { layer = tensorProduct(layer, getGate(c->gates[q * c->depth + d].tag));}
             }
         }
 
-        c->stateVector = matrixMult(layer, c->stateVector);
+        if (d == c->depth - 1){ cr = layer;}
+        else { cr = matrixMult(cr, layer);}
+
+        /* Depth by depth matrix representation of circuit and state vector updates for debugging */
+        // printf("Cr\n");
+        // printMatrix(cr);
+        // printf("\n\n");
+        // printf("running\n");
+        // printMatrix(matrixMult(cr, c->stateVector));
+        // printf("\n\n");
 
     }
 
+    c->stateVector = matrixMult(cr, c->stateVector);
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+void printCircuit(circuit* c){
+
+    printf("CIRCUIT DIAGRAM:\n");
+
+    for (int q = 0; q < c->noq; q++){
+        printf("q%d: --", q);
+        for (int d = 0; d < c->depth; d++){
+            printf("%s--", gateStrings[c->gates[q * c->depth + d].tag + 1]);
+        }
+        printf("\n");
+    }
+
+    printf("\n");
+
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+void printStateVector(circuit* c){
+
+    printf("STATE VECTOR:\n");
     printMatrix(c->stateVector);
 
 }

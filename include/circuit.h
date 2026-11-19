@@ -43,6 +43,8 @@ void SWAP(circuit* c, int control, int target, int depth);
 
 void CNOT(circuit* c, int control, int target, int depth);
 
+void CZ(circuit* c, int control, int target, int depth);
+
 void executeCircuit(circuit* c);
 
 void printStateVector(circuit* c);

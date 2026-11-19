@@ -19,6 +19,7 @@ enum gates{
     T_GATE,     /* int value = 6 */
     SWAP_GATE,  /* int value = 7 */
     CNOT_GATE,  /* int value = 8 */
+    CZ_GATE,    /* int value = 9 */
 
 };
 
