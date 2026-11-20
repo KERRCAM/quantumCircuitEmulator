@@ -27,7 +27,7 @@ enum gates{
 
 typedef struct GATE{
 
-    int tag;
+    int tag; /* Gate enum */
     int q0;
     int q1;
 

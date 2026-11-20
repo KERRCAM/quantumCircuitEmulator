@@ -24,7 +24,7 @@ matrix* newMatrix(int h, int w){
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
-matrix* loadMatrix(int h, int w, double complex* mat){
+matrix* loadMatrix(int h, int w, float complex* mat){
 
     /* Memory allocation */
     matrix* m = calloc(1, sizeof(*m));

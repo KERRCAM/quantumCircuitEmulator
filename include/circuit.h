@@ -12,7 +12,7 @@
 
 typedef struct CIRCUIT_STRUCT{
 
-    short int noq;
+    short int noq;  /* Number of qubits */
     short int depth;
     gate* gates;
     matrix* stateVector;

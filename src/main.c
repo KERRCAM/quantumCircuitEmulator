@@ -245,6 +245,7 @@ int main(){
     testDepth();
     testQubits();
     testX();
+    testY();
     testZ();
     testS();
     testT();
@@ -253,12 +254,6 @@ int main(){
     testGrovers();
     // testMaxDepth(2000);
     // testMaxQubits(15);
-
-    // circuit* qc = newCircuit(2, 2);
-    // H(qc, 0, 0);
-    // SWAP(qc, 0, 1, 1);
-    // printCircuit(qc);
-    // executeCircuit(qc);
 
     return 0;
 

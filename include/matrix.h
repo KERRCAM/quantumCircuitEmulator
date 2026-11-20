@@ -13,8 +13,8 @@
 
 typedef struct MATRIX{
 
-    int w;
-    int h;
+    int w; /* Width */
+    int h; /* Height */
     double complex* mat;
 
 } matrix;
@@ -58,3 +58,7 @@ void deleteMatrix(matrix* m);
 /*--------------------------------------------------------------------------------------------------------------------*/
 
 #endif
+
+
+
+
