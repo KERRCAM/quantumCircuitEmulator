@@ -49,7 +49,6 @@ matrix* matrixMult(matrix* a, matrix* b){
 
     matrix* result = newMatrix(a->h, b->w);
 
-    // TODO: make first or second loop parallel, third would be race condition
     for (int i = 0; i < a->h; i++){
         for (int j = 0; j < b->w; j++){
             for (int k = 0; k < a->w; k++){
