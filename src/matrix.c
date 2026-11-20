@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <complex.h>
 #include <stdlib.h>
+#include <omp.h>
 
 /* LOCAL IMPORTS */
 #include <matrix.h>
@@ -16,7 +17,7 @@ matrix* newMatrix(int h, int w){
     /* Initialising attributes */
     m->h = h;
     m->w = w;
-    m->mat = calloc(1, sizeof(double complex) * h * w);
+    m->mat = calloc(1, sizeof(float complex) * h * w);
 
     return m;
 
@@ -49,7 +50,7 @@ matrix* matrixMult(matrix* a, matrix* b){
 
     matrix* result = newMatrix(a->h, b->w);
 
-    // TODO: make first or second loop parallel, third would be race condition
+    #pragma omp parallel for schedule(static, 16)
     for (int i = 0; i < a->h; i++){
         for (int j = 0; j < b->w; j++){
             for (int k = 0; k < a->w; k++){
@@ -68,6 +69,7 @@ matrix* tensorProduct(matrix* a, matrix* b){
 
     matrix* result = newMatrix(a->h * b->h, a->w * b->w);
 
+    #pragma omp parallel for schedule(static, 16)
     for (int i = 0; i < a->h; i++){
         for (int j = 0; j < a->w; j++){
             for (int k = 0; k < b->h; k++){
@@ -88,6 +90,7 @@ matrix* matrixTranspose(matrix* a){
 
     matrix* result = newMatrix(a->w, a->h);
 
+    #pragma omp parallel for schedule(static, 16)
     for (int i = 0; i < a->h; i++){
         for (int j = 0; j < a->w; j++){
             result->mat[j * result->w + i] = a->mat[i * result->w + j];
@@ -104,6 +107,7 @@ matrix* matrixCompConj(matrix* a){
 
     matrix* result = newMatrix(a->w, a->h);
 
+    #pragma omp parallel for schedule(static, 16)
     for (int i = 0; i < a->h; i++){
         for (int j = 0; j < a->w; j++){
             result->mat[i * result->w + j] = conjf(a->mat[i * result->w + j]);
@@ -120,6 +124,7 @@ matrix* matrixConjTrans(matrix* a){
 
     matrix* result = newMatrix(a->w, a->h);
 
+    #pragma omp parallel for schedule(static, 16)
     for (int i = 0; i < a->h; i++){
         for (int j = 0; j < a->w; j++){
             result->mat[j * result->w + i] = conjf(a->mat[i * result->w + j]);

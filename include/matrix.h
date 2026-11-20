@@ -15,7 +15,7 @@ typedef struct MATRIX{
 
     int w; /* Width */
     int h; /* Height */
-    double complex* mat;
+    float complex* mat;
 
 } matrix;
 
@@ -25,7 +25,7 @@ matrix* newMatrix(int h, int w);
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
-matrix* loadMatrix(int h, int w, double complex* mat);
+matrix* loadMatrix(int h, int w, float complex* mat);
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 

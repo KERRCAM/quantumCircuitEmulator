@@ -6,7 +6,7 @@
 #include <matrix.h>
 #include <gate.h>
 #include <circuit.h>
-#include <time.h>
+#include <omp.h>
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
@@ -214,22 +214,19 @@ void testMaxDepth(int n){
 
 void testMaxQubits(int n){
 
-    system("sudo ./ppat simulator &");
-    double time, diff;
-    time = (double) clock();
-    time = time / CLOCKS_PER_SEC;
+    // system("sudo ./ppat simulator &");
+    double start = omp_get_wtime();
 
     circuit* qc = newCircuit(n, 1);
     for (int i = 0; i < n; i++){ H(qc, i, 0);}
     printCircuit(qc);
     executeCircuit(qc);
-    printStateVector(qc);
-    printCircuitMatrix(qc);
-    printProbabilities(qc);
+    // printStateVector(qc);
+    // printCircuitMatrix(qc);
+    // printProbabilities(qc);
 
-    diff = (((double) clock()) / CLOCKS_PER_SEC) - time;
-    printf("Program run time = %lf seconds\n", diff);
-    system("sudo killall powermetrics");
+    printf("Program run time (%d threads) = %lf seconds\n", omp_get_max_threads(), omp_get_wtime() - start);
+    // system("sudo killall powermetrics");
 
     printf("\n#---------------------------------------------------------------------------------------------------#\n");
 
@@ -241,19 +238,19 @@ int main(){
 
     initBaseGates();
 
-    testH();
-    testDepth();
-    testQubits();
-    testX();
-    testY();
-    testZ();
-    testS();
-    testT();
-    testSwap();
-    testCNOT();
-    testGrovers();
+    // testH();
+    // testDepth();
+    // testQubits();
+    // testX();
+    // testY();
+    // testZ();
+    // testS();
+    // testT();
+    // testSwap();
+    // testCNOT();
+    // testGrovers();
     // testMaxDepth(2000);
-    // testMaxQubits(15);
+    testMaxQubits(15);
 
     return 0;
 
